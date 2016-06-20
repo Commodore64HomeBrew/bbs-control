@@ -16,7 +16,10 @@ while [ "$X" -gt 0 ]; do
 
         pkill tcpser
   
-	 tcpser -d /dev/ttyAMA0 -s 1200 -tsS -l 7 -i "s0=1&s2=43&e0q0v0&c0x1&k0&w" -a /home/pi/CentronianBBS/bbs-welcome.seq -T /home/pi/CentronianBBS/bbs-timeout.seq -B /home/pi/CentronianBBS/bbs-busy.seq -p 6400 > $FILENAME &
+	tcpser -d /dev/ttyAMA0 -s 1200 -tsS -l 7 -i "s0=1&s2=43&e0q0v0&c0x1&k0&w" -a /home/pi/CentronianBBS/bbs-welcome.seq -T /home/pi/CentronianBBS/bbs-timeout.seq -B /home/pi/CentronianBBS/bbs-busy.seq -p 6400 > $FILENAME &
+
+
+	#tcpser -d /dev/ttyAMA0 -s 2400 -tsS -l 7 -i "s0=1&s2=43&e0q0v0&c0x1&k0&w" -I -a /home/pi/CentronianBBS/bbs-welcome.seq -T /home/pi/CentronianBBS/bbs-timeout.seq -B /home/pi/CentronianBBS/bbs-busy.seq -p 6400 > $FILENAME &
 	
 	sleep 1
     	
@@ -121,7 +124,8 @@ while [ "$X" -gt 0 ]; do
 
 	echo "$(date)"
 		
-	#tail -f session.log | grep -m 1 "|XXXX            |" | xargs perl -C -e 'print "123-456-7890"' > /dev/ttyAMA0
+	#tail -f session.log | grep -m 1 "|XXXX            |" | xargs perl -C -e 'print "123-456-7890
+"' > /dev/ttyAMA0
 
 
 done
