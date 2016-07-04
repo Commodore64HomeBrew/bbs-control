@@ -2,5 +2,6 @@
 
 sh resetusb.sh
 
-cbmctrl dir 8
+cbmctrl dir 9
+
 
