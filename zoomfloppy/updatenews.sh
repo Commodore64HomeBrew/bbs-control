@@ -3,16 +3,19 @@
 #sh dummyconnect.sh &
 
 sh cbcnews.sh
+sh nasanews.sh
 
 sh 1571side.sh 1
 
 sh deletefile.sh "(bbs-l5)"
+sh deletefile.sh "(bbs-l6)"
 
-echo "(bbs-l5) deleted"
+echo "Old files deleted"
 
 sh writefile.sh "(bbs-l5)"
+sh writefile.sh "(bbs-l6)"
 
-echo "(bbs-l5) written"
+echo "New files written"
 
 sh 1571side.sh 0
 
