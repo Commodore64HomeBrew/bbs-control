@@ -1,8 +1,6 @@
 #!/bin/bash
 
-#hub-ctrl -h 0 -P 3 -p 1
-
-sleep 2
+#sh dummyconnect.sh &
 
 sh cbcnews.sh
 
@@ -20,7 +18,5 @@ sh 1571side.sh 0
 
 cbmctrl reset
 
-#hub-ctrl -h 0 -P 3 -p 0
-
-
+#pkill telnet
 
