@@ -7,13 +7,13 @@ sh nasanews.sh
 
 sh 1571side.sh 1
 
-sh deletefile.sh "(bbs-l5)"
-sh deletefile.sh "(bbs-l6)"
+sh deletefile.sh "(bbs-l1)"
+sh deletefile.sh "(bbs-l2)"
 
 echo "Old files deleted"
 
-sh writefile.sh "(bbs-l5)"
-sh writefile.sh "(bbs-l6)"
+sh writefile.sh "(bbs-l1)"
+sh writefile.sh "(bbs-l2)"
 
 echo "New files written"
 
