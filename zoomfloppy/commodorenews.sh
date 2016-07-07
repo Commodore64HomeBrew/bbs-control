@@ -1,6 +1,6 @@
 #!/bin/bash
 
-FILEOUT="(bbs-l7)"
+FILEOUT="(bbs-l3)"
 FILEIN="http://www.commodore-news.com/news/index/1/en"
 
 RETURN=$(perl -C -e 'print chr 0x000d')
@@ -11,15 +11,18 @@ YELLOW=$(perl -C -e 'print chr 0xf10f')
 
 rm $FILEOUT
 
-#wget https://www.nasa.gov/rss/dyn/breaking_news.rss
-
-#sed -i '/<language>/ d' $FILEIN
-#sed -i '/<lastBuildDate>/ d' $FILEIN
-#sed -i '/<guid/ d' $FILEIN
-
 #echo $RED'cbc nEWS rss fEED'$YELLOW > $FILEOUT
 
 links -width 40 -dump $FILEIN | sed '/http/ d' | sed '/]]/ d' | tr 'a-zA-Z' 'A-Za-z' >> $FILEOUT
+
+sed -i '/   cOMMODORE |/,/   sEARCH/d' $FILEOUT 
+
+split -l 200 $FILEOUT
+
+mv xaa $FILEOUT
+rm x*
+
+#sed -r 'H;1h;$!d;x; s/(([^\n\n]*\\n\n){6}).*/\1/' $FILEOUT
 
 #sed -i ':a;N;$!ba;s/\n\n/'$RED'\n\n/2' $FILEOUT
 
