@@ -4,8 +4,6 @@ ESTAB="ESTAB"
 
 FILENUM=$(shuf -i 1-6 -n 1)
 
-cd /home/pi/Git/bbs-control
-
 cat seqs/connect-msg.seq > seqs/bbs-update.seq
 cat seqs/$FILENUM-logo.seq >> seqs/bbs-update.seq
 cat seqs/update-msg.seq >> seqs/bbs-update.seq
@@ -18,8 +16,6 @@ while [ "$STATUS" = "$ESTAB" ] ; do
 	STATUS=$(ss -tp | grep 'tcpser' | awk '{print $1}')
 done
 
-
-
 bash killsession.sh
 bash killsession.sh
 
@@ -27,23 +23,15 @@ tcpser -v 25232 -s 1200 -tsS -l 7 -i "s0=1&s2=43&e0q0v0&c0x1&k0&w" -a seqs/bbs-u
 
 sleep 60
 
-cd zoomfloppy
-
 date >> $FILEOUT
 
-#bash backupbbs.sh
-#echo "...backup complete" >> $FILEOUT
+bash backupbbs.sh
+echo "...backup complete" >> $FILEOUT
 
 bash updatenews.sh
-#echo "...update complete" >> $FILEOUT
-
-cd ..
+echo "...update complete" >> $FILEOUT
 
 pkill tcpser
 
 nohup bash bbs-session.sh >> bbs-session.log &
-
-
-
-
 
