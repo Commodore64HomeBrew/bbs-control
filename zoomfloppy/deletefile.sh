@@ -3,7 +3,7 @@
 FILE="$1"
 
 echo "$FILE"
-sh resetusb.sh
+bash resetusb.sh
 
 cbmctrl -p command 8 "s0:$FILE"
 

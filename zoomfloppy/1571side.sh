@@ -1,10 +1,10 @@
 #!/bin/bash
 
-sh resetusb.sh
+bash resetusb.sh
 
 cbmctrl command 8 "U0>M0"
 
-sh resetusb.sh
+bash resetusb.sh
 
 if [ $1 -eq 0 ]
 then

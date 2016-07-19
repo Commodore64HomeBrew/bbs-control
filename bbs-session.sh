@@ -10,25 +10,23 @@ while [ "$X" -gt 0 ]; do
 
 	FILENUM=$(shuf -i 1-6 -n 1)
 
-	cat connect-msg.seq > bbs-welcome.seq
-	cat $FILENUM-logo.seq >> bbs-welcome.seq
-	cat connect-status.seq >> bbs-welcome.seq
+	cat seqs/connect-msg.seq > seqs/bbs-welcome.seq
+	cat seqs/$FILENUM-logo.seq >> seqs/bbs-welcome.seq
+	cat seqs/connect-status.seq >> seqs/bbs-welcome.seq
 
-        pkill tcpser
+	pkill tcpser
   
-	 tcpser -d /dev/ttyAMA0 -s 1200 -tsS -l 7 -i "s0=1&s2=43&e0q0v0&c0x1&k0&w" -a /home/pi/CentronianBBS/bbs-welcome.seq -T /home/pi/CentronianBBS/bbs-timeout.seq -B /home/pi/CentronianBBS/bbs-busy.seq -p 6400 > $FILENAME &
+	 tcpser -d /dev/ttyAMA0 -s 1200 -tsS -l 7 -i "s0=1&s2=43&e0q0v0&c0x1&k0&w" -a seqs/bbs-welcome.seq -T seqs/bbs-timeout.seq -B seqs/bbs-busy.seq -p 6400 > $FILENAME &
 	
 	sleep 1
     	
 	echo "...waiting for new connection"
 
-	#STATUS=$(netstat -tn 2>/dev/null | grep :6400 | awk '{print $6}')
 	STATUS=$(ss -tp | grep 'tcpser' | awk '{print $1}')
 
 	while [ "$STATUS" != "$ESTAB" ]; do
 		sleep 1
 		STATUS=$(ss -tp | grep 'tcpser' | awk '{print $1}')
-		#STATUS=$(netstat -tn 2>/dev/null | grep :6400 | awk '{print $6}')
 	done
 
 	echo "$(ss -tp | grep 'tcpser')"
@@ -44,8 +42,7 @@ while [ "$X" -gt 0 ]; do
 	HANGUP=0
 	QUIET=0
 
-	STATUS=$(ss -tp | grep 'tcpser' | awk '{print $1}')
-
+	START=$SECONDS
 	while [ "$STATUS" = "$ESTAB" ] && [ $HANGUP -eq 0 ] ; do
 
 		if [ $CHECKSENT -eq 0 ]
@@ -58,6 +55,22 @@ while [ "$X" -gt 0 ]; do
 				perl -C -e 'print chr 0xe1ba' > /dev/ttyAMA0
 				CHECKSENT=1
 			fi
+			
+			SIZEONE=$SIZETWO
+                	SIZETWO=$(stat -c%s "$FILENAME")
+
+                	if [ $SIZEONE -eq $SIZETWO ]
+                	then
+                        	QUIET=$(( SECONDS - START ))
+
+                        	if [ $QUIET -gt $TIMEOUT ]
+                        	then
+                                	echo "...timeout"
+                                	HANGUP=1
+                        	fi
+                	else
+                        	START=$SECONDS
+                	fi
 		fi
 
 
@@ -94,30 +107,11 @@ while [ "$X" -gt 0 ]; do
 			HANGUP=1
 		fi
 
-		SIZEONE=$SIZETWO
-                SIZETWO=$(stat -c%s "$FILENAME")
-
-                if [ $SIZEONE -eq $SIZETWO ]
-		then
-			QUIET=$SECONDS
-			
-			if [ $QUIET -gt $TIMEOUT ]
-			then
-				echo "...timeout"
-				HANGUP=1
-			fi
-
-		else
-			SECONDS=0
-                fi
-		#echo $QUIET
-
 		#echo "$(ss -tp | grep 'tcpser')"
 		#echo $(netstat -tn 2>/dev/null | grep :6400)
 		STATUS=$(ss -tp | grep 'tcpser' | awk '{print $1}')
 
 	done
-
 
 	echo "$(date)"
 		

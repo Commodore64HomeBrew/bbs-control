@@ -2,7 +2,7 @@
 
 FILE="$1"
 
-#sh resetusb.sh
+bash resetusb.sh
 
 cbmcopy -t original -d 1541 -w 8 --file-type=S $FILE
 
