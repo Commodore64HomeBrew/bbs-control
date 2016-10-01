@@ -21,15 +21,18 @@ bash killsession.sh
 
 tcpser -v 25232 -s 1200 -tsS -l 7 -i "s0=1&s2=43&e0q0v0&c0x1&k0&w" -a seqs/bbs-update.seq -T seqs/bbs-timeout.seq -B seqs/bbs-busy.seq -p 6400 &
 
-sleep 60
+sleep 30
 
 date >> $FILEOUT
 
-bash backupbbs.sh
-echo "...backup complete" >> $FILEOUT
+#bash backupbbs.sh
+#echo "...backup complete" >> $FILEOUT
 
 bash updatenews.sh
 echo "...update complete" >> $FILEOUT
+
+bash backupsubs.sh
+echo "...backupsubs complete" >> $FILEOUT
 
 pkill tcpser
 

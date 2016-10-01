@@ -1,10 +1,12 @@
 #!/bin/bash
+DEVICE=/dev/ttyAMA0
+PORT=6400
 FILENAME="session.log"
 ESTAB="ESTAB"
 TIMEOUT=60
 X=1
 
-sudo /usr/local/bin/noip2
+#sudo /usr/local/bin/noip2
 
 while [ "$X" -gt 0 ]; do
 
@@ -15,8 +17,10 @@ while [ "$X" -gt 0 ]; do
 	cat seqs/connect-status.seq >> seqs/bbs-welcome.seq
 
 	pkill tcpser
+
+        #nohup tcpser -d $DEVICE -s 2400 -tsS -l 7 -i "s0=1&s2=43&e0q0v0&c0x1&k0&w" -a seqs/bbs-welcome.seq -T seqs/bbs-timeout.seq -B seqs/bbs-busy.seq -p $PORT -I > $FILENAME &
   
-	 tcpser -d /dev/ttyAMA0 -s 1200 -tsS -l 7 -i "s0=1&s2=43&e0q0v0&c0x1&k0&w" -a seqs/bbs-welcome.seq -T seqs/bbs-timeout.seq -B seqs/bbs-busy.seq -p 6400 > $FILENAME &
+	tcpser -d $DEVICE -s 1200 -tsS -l 7 -i "s0=1&s2=43&e0q0v0&c0x1&k0&w" -a seqs/bbs-welcome.seq -T seqs/bbs-timeout.seq -B seqs/bbs-busy.seq -p $PORT > $FILENAME &
 	
 	sleep 1
     	
@@ -28,6 +32,8 @@ while [ "$X" -gt 0 ]; do
 		sleep 1
 		STATUS=$(ss -tp | grep 'tcpser' | awk '{print $1}')
 	done
+
+        aplay audio/impossible_mission_-_another_visitor.wav &
 
 	echo "$(ss -tp | grep 'tcpser')"
 	#echo $(netstat -tn 2>/dev/null | grep :6400)
@@ -47,13 +53,15 @@ while [ "$X" -gt 0 ]; do
 
 		if [ $CHECKSENT -eq 0 ]
 		then
-			CGMODE=$(tail -50 $FILENAME | grep '|mode  >         |')
+			CGMODE=$(tail -50 $FILENAME | grep '> ')
 
 			if [ -n "$CGMODE" ]
 			then
 				echo "...checkmark sent"
-				perl -C -e 'print chr 0xe1ba' > /dev/ttyAMA0
+				perl -C -e 'print chr 0xe1ba' > $DEVICE
 				CHECKSENT=1
+
+				aplay audio/impossible_mission_-_stay_a_while_stay_forever.wav &
 			fi
 			
 			SIZEONE=$SIZETWO
@@ -81,7 +89,7 @@ while [ "$X" -gt 0 ]; do
 			if [ -n "$TRNSFR" ]
 			then
 				echo "...protocol change"
-				perl -C -e 'print "2^M"' > /dev/ttyAMA0; sleep 1.2; perl -C -e 'print "P^M"' > /dev/ttyAMA0
+				perl -C -e 'print "2"' > $DEVICE; sleep 1.2; perl -C -e 'print "P"' > $DEVICE
 				PROTOSENT=1
 			fi
 		fi
@@ -95,7 +103,7 @@ while [ "$X" -gt 0 ]; do
 			if [ -n "$DEIGHT" ]
 			then
 				echo "...drive 8 switch"
-				perl -C -e 'print "2^M"' > /dev/ttyAMA0
+				perl -C -e 'print "2"' > $DEVICE
 			fi
 		fi
 
@@ -105,6 +113,7 @@ while [ "$X" -gt 0 ]; do
 		then
 			echo "...hangup"
 			HANGUP=1
+			aplay audio/impossible_mission_-_mission_accomplished.wav &
 		fi
 
 		#echo "$(ss -tp | grep 'tcpser')"
@@ -115,7 +124,7 @@ while [ "$X" -gt 0 ]; do
 
 	echo "$(date)"
 		
-	#tail -f session.log | grep -m 1 "|XXXX            |" | xargs perl -C -e 'print "123-456-7890"' > /dev/ttyAMA0
+	#tail -f session.log | grep -m 1 "|XXXX            |" | xargs perl -C -e 'print "123-456-7890"' > $DEVICE
 
 
 done
