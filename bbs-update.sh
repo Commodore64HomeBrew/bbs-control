@@ -38,3 +38,5 @@ pkill tcpser
 
 nohup bash bbs-session.sh >> bbs-session.log &
 
+bash resetusb.sh
+

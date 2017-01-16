@@ -4,6 +4,10 @@ bash cbcnews.sh
 bash nasanews.sh
 bash commodorenews.sh
 
+cat seqs/spacepause.seq l1 > "(bbs-l1)"
+cat seqs/spacepause.seq l2 > "(bbs-l2)"
+cat seqs/spacepause.seq l3 > "(bbs-l3)"
+
 #bash 1571side.sh 1
 bash resetusb.sh
 sleep 1

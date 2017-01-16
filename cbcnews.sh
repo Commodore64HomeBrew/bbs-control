@@ -1,6 +1,6 @@
 #!/bin/bash
 
-FILEOUT="(bbs-l1)"
+FILEOUT="l1"
 
 RETURN=$(perl -C -e 'print chr 0x000d')
 

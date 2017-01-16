@@ -1,6 +1,6 @@
 #!/bin/bash
 
-FILEOUT="(bbs-l3)"
+FILEOUT="l3"
 FILEIN="http://www.commodore-news.com/news/index/1/en"
 
 RETURN=$(perl -C -e 'print chr 0x000d')

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-FILEOUT="(bbs-l2)"
+FILEOUT="l2"
 FILEIN="breaking_news.rss"
 
 RETURN=$(perl -C -e 'print chr 0x000d')

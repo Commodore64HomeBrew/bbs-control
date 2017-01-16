@@ -6,7 +6,7 @@ ESTAB="ESTAB"
 TIMEOUT=60
 X=1
 
-#sudo /usr/local/bin/noip2
+sudo /usr/local/bin/noip2
 
 while [ "$X" -gt 0 ]; do
 

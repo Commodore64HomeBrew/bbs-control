@@ -1,0 +1,304 @@
+2017-01-15 02:59:17:1995870208:DEBUG:Read configuration for 1 serial port(s)
+2017-01-15 02:59:17:1995870208:ENTER_EXIT:Exitting init function
+2017-01-15 02:59:17:1995870208:ENTER_EXIT:Entering ip_init_server_conn function
+2017-01-15 02:59:17:1995870208:DEBUG:Creating server socket
+2017-01-15 02:59:17:1995870208:DEBUG:Binding server socket to port 6400
+2017-01-15 02:59:17:1995870208:INFO:Server socket bound to port
+2017-01-15 02:59:17:1995870208:INFO:Server socket listening for connections
+2017-01-15 02:59:17:1995870208:ENTER_EXIT:Exitting ip_init_server_conn function
+2017-01-15 02:59:17:1995870208:ENTER_EXIT:Entering dce_init_conn function
+2017-01-15 02:59:17:1995870208:ENTER_EXIT:Entering ser_init_conn function
+2017-01-15 02:59:17:1995870208:ENTER_EXIT:Entering ser_get_bps_const function
+2017-01-15 02:59:17:1995870208:DEBUG:Checking speed: 1200
+2017-01-15 02:59:17:1995870208:ENTER_EXIT:Exitting ser_get_bps_const function
+2017-01-15 02:59:17:1995870208:INFO:Opening serial device
+2017-01-15 02:59:17:1995870208:INFO:Opened serial device /dev/ttyAMA0 at speed 1200 as fd 8
+2017-01-15 02:59:17:1995870208:INFO:serial device configured
+2017-01-15 02:59:17:1995870208:ENTER_EXIT:Exitting ser_init_conn function
+2017-01-15 02:59:17:1995870208:ENTER_EXIT:Exitting dce_init_conn function
+2017-01-15 02:59:17:1995870208:DEBUG_X:Waiting for incoming connections and/or indicators
+2017-01-15 02:59:17:1994245232:ENTER_EXIT:Entering run_bridge function
+2017-01-15 02:59:17:1994245232:DEBUG_X:CTRL thread ID=1985856624
+2017-01-15 02:59:17:1985856624:ENTER_EXIT:Entering ctrl_thread function
+2017-01-15 02:59:17:1994245232:DEBUG_X:IP thread ID=1977468016
+2017-01-15 02:59:17:1994245232:INFO:Control Lines: DSR:1 DCD:0 CTS:1
+2017-01-15 02:59:17:1994245232:ENTER_EXIT:Entering dce_set_control_lines function
+2017-01-15 02:59:17:1994245232:DEBUG_X:Setting CTS pin high
+2017-01-15 02:59:17:1994245232:DEBUG_X:Setting DCD pin low
+2017-01-15 02:59:17:1994245232:ENTER_EXIT:Exitting dce_set_control_lines function
+2017-01-15 02:59:17:1994245232:ENTER_EXIT:Entering mdm_disconnect function
+2017-01-15 02:59:17:1994245232:INFO:Disconnecting modem
+2017-01-15 02:59:17:1994245232:INFO:Disconnecting
+2017-01-15 02:59:17:1994245232:INFO:Control Lines: DSR:1 DCD:0 CTS:1
+2017-01-15 02:59:17:1994245232:ENTER_EXIT:Entering dce_set_control_lines function
+2017-01-15 02:59:17:1994245232:DEBUG_X:Setting CTS pin high
+2017-01-15 02:59:17:1994245232:DEBUG_X:Setting DCD pin low
+2017-01-15 02:59:17:1994245232:ENTER_EXIT:Exitting dce_set_control_lines function
+2017-01-15 02:59:17:1994245232:ENTER_EXIT:Exitting mdm_disconnect function
+2017-01-15 02:59:17:1994245232:ENTER_EXIT:Entering mdm_parse_cmd function
+2017-01-15 02:59:17:1994245232:DEBUG:Evaluating ATs0=1&s2=43&e0q0v0&c0x1&k0&w
+2017-01-15 02:59:17:1985856624:ENTER_EXIT:Entering dce_check_control_lines function
+2017-01-15 02:59:17:1977468016:ENTER_EXIT:Entering ip_thread function
+2017-01-15 02:59:17:1994245232:DEBUG:Command: S (83), Flags: 0, index=4, num=0, data=3-4
+2017-01-15 02:59:17:1994245232:DEBUG:Command: S (339), Flags: 1, index=7, num=2, data=0-0
+2017-01-15 02:59:17:1994245232:DEBUG:Command: = (61), Flags: 0, index=10, num=43, data=0-0
+2017-01-15 02:59:17:1994245232:DEBUG:Command: E (325), Flags: 1, index=13, num=0, data=0-0
+2017-01-15 02:59:17:1994245232:DEBUG:Command: Q (81), Flags: 0, index=15, num=0, data=0-0
+2017-01-15 02:59:17:1994245232:DEBUG:Command: V (86), Flags: 0, index=17, num=0, data=0-0
+2017-01-15 02:59:17:1994245232:DEBUG:Command: C (323), Flags: 1, index=20, num=0, data=0-0
+2017-01-15 02:59:17:1994245232:INFO:Control Lines: DSR:1 DCD:1 CTS:1
+2017-01-15 02:59:17:1994245232:ENTER_EXIT:Entering dce_set_control_lines function
+2017-01-15 02:59:17:1994245232:DEBUG_X:Setting CTS pin high
+2017-01-15 02:59:17:1994245232:DEBUG_X:Setting DCD pin high
+2017-01-15 02:59:17:1994245232:ENTER_EXIT:Exitting dce_set_control_lines function
+2017-01-15 02:59:17:1994245232:DEBUG:Command: X (88), Flags: 0, index=22, num=1, data=0-0
+2017-01-15 02:59:17:1994245232:DEBUG:Command: K (331), Flags: 1, index=25, num=0, data=0-0
+2017-01-15 02:59:17:1994245232:ENTER_EXIT:Entering dce_set_flow_control function
+2017-01-15 02:59:17:1994245232:DEBUG_X:Setting NONE flow control
+2017-01-15 02:59:17:1994245232:ENTER_EXIT:Exitting dce_set_flow_control function
+2017-01-15 02:59:17:1994245232:DEBUG:Command: W (343), Flags: 1, index=27, num=0, data=0-0
+2017-01-15 02:59:17:1994245232:DEBUG:Command:   (-1), Flags: -1, index=27, num=0, data=0-0
+2017-01-15 02:59:17:1994245232:DEBUG:Sending OK response to modem
+2017-01-15 02:59:17:1994245232:DEBUG_X:Sending numeric response
+2017-01-15 02:59:17:1994245232:DEBUG_X:Waiting for modem/control line/timer/socket activity
+2017-01-15 02:59:17:1994245232:DEBUG_X:Command Mode=1, Connection status=0
+2017-01-15 02:59:19:1994245232:DEBUG:Data available on serial port
+2017-01-15 02:59:19:1994245232::RS<-|0000|c1 d4 c8 30 0d                                 |...0.           |
+2017-01-15 02:59:19:1994245232:DEBUG:Read 5 bytes from serial port
+2017-01-15 02:59:19:1994245232::RS->|0000|c1                                             |.               |
+2017-01-15 02:59:19:1994245232::RS->|0000|d4                                             |.               |
+2017-01-15 02:59:19:1994245232::RS->|0000|c8                                             |.               |
+2017-01-15 02:59:19:1994245232::RS->|0000|30                                             |0               |
+2017-01-15 02:59:19:1994245232::RS->|0000|0d                                             |.               |
+2017-01-15 02:59:19:1994245232:DEBUG_X:Waiting for modem/control line/timer/socket activity
+2017-01-15 02:59:19:1994245232:DEBUG_X:Command Mode=1, Connection status=0
+2017-01-15 02:59:20:1994245232:DEBUG:Data available on serial port
+2017-01-15 02:59:20:1994245232::RS<-|0000|78 78 fe 78 fe 80                              |xx.x..          |
+2017-01-15 02:59:20:1994245232:DEBUG:Read 6 bytes from serial port
+2017-01-15 02:59:20:1994245232::RS->|0000|78                                             |x               |
+2017-01-15 02:59:20:1994245232::RS->|0000|78                                             |x               |
+2017-01-15 02:59:20:1994245232::RS->|0000|fe                                             |.               |
+2017-01-15 02:59:20:1994245232::RS->|0000|78                                             |x               |
+2017-01-15 02:59:20:1994245232::RS->|0000|fe                                             |.               |
+2017-01-15 02:59:20:1994245232::RS->|0000|80                                             |.               |
+2017-01-15 02:59:20:1994245232:DEBUG_X:Waiting for modem/control line/timer/socket activity
+2017-01-15 02:59:20:1994245232:DEBUG_X:Command Mode=1, Connection status=0
+2017-01-15 02:59:20:1994245232:DEBUG:Data available on serial port
+2017-01-15 02:59:20:1994245232::RS<-|0000|80 78 1e 80 80 80                              |.x....          |
+2017-01-15 02:59:20:1994245232:DEBUG:Read 6 bytes from serial port
+2017-01-15 02:59:20:1994245232::RS->|0000|80                                             |.               |
+2017-01-15 02:59:20:1994245232::RS->|0000|78                                             |x               |
+2017-01-15 02:59:20:1994245232::RS->|0000|1e                                             |.               |
+2017-01-15 02:59:20:1994245232::RS->|0000|80                                             |.               |
+2017-01-15 02:59:20:1994245232::RS->|0000|80                                             |.               |
+2017-01-15 02:59:20:1994245232::RS->|0000|80                                             |.               |
+2017-01-15 02:59:20:1994245232:DEBUG_X:Waiting for modem/control line/timer/socket activity
+2017-01-15 02:59:20:1994245232:DEBUG_X:Command Mode=1, Connection status=0
+2017-01-15 02:59:20:1994245232:DEBUG:Data available on serial port
+2017-01-15 02:59:20:1994245232::RS<-|0000|78 fe f8 78 80                                 |x..x.           |
+2017-01-15 02:59:20:1994245232:DEBUG:Read 5 bytes from serial port
+2017-01-15 02:59:20:1994245232::RS->|0000|78                                             |x               |
+2017-01-15 02:59:20:1994245232::RS->|0000|fe                                             |.               |
+2017-01-15 02:59:20:1994245232::RS->|0000|f8                                             |.               |
+2017-01-15 02:59:20:1994245232::RS->|0000|78                                             |x               |
+2017-01-15 02:59:20:1994245232::RS->|0000|80                                             |.               |
+2017-01-15 02:59:20:1994245232:DEBUG_X:Waiting for modem/control line/timer/socket activity
+2017-01-15 02:59:20:1994245232:DEBUG_X:Command Mode=1, Connection status=0
+2017-01-15 02:59:20:1994245232:DEBUG:Data available on serial port
+2017-01-15 02:59:20:1994245232::RS<-|0000|f8 80 f8 80 78 fe 80                           |....x..         |
+2017-01-15 02:59:20:1994245232:DEBUG:Read 7 bytes from serial port
+2017-01-15 02:59:20:1994245232::RS->|0000|f8                                             |.               |
+2017-01-15 02:59:20:1994245232::RS->|0000|80                                             |.               |
+2017-01-15 02:59:20:1994245232::RS->|0000|f8                                             |.               |
+2017-01-15 02:59:20:1994245232::RS->|0000|80                                             |.               |
+2017-01-15 02:59:20:1994245232::RS->|0000|78                                             |x               |
+2017-01-15 02:59:20:1994245232::RS->|0000|fe                                             |.               |
+2017-01-15 02:59:20:1994245232::RS->|0000|80                                             |.               |
+2017-01-15 02:59:20:1994245232:DEBUG_X:Waiting for modem/control line/timer/socket activity
+2017-01-15 02:59:20:1994245232:DEBUG_X:Command Mode=1, Connection status=0
+2017-01-15 02:59:20:1994245232:DEBUG:Data available on serial port
+2017-01-15 02:59:20:1994245232::RS<-|0000|78 80 78 fe                                    |x.x.            |
+2017-01-15 02:59:20:1994245232:DEBUG:Read 4 bytes from serial port
+2017-01-15 02:59:20:1994245232::RS->|0000|78                                             |x               |
+2017-01-15 02:59:20:1994245232::RS->|0000|80                                             |.               |
+2017-01-15 02:59:20:1994245232::RS->|0000|78                                             |x               |
+2017-01-15 02:59:20:1994245232::RS->|0000|fe                                             |.               |
+2017-01-15 02:59:20:1994245232:DEBUG_X:Waiting for modem/control line/timer/socket activity
+2017-01-15 02:59:20:1994245232:DEBUG_X:Command Mode=1, Connection status=0
+2017-01-15 03:04:25:1994245232:DEBUG:Data available on serial port
+2017-01-15 03:04:25:1994245232::RS<-|0000|f8 78 1e 78 fe 78 1e 78                        |.x.x.x.x        |
+2017-01-15 03:04:25:1994245232:DEBUG:Read 8 bytes from serial port
+2017-01-15 03:04:25:1994245232::RS->|0000|f8                                             |.               |
+2017-01-15 03:04:25:1994245232::RS->|0000|78                                             |x               |
+2017-01-15 03:04:25:1994245232::RS->|0000|1e                                             |.               |
+2017-01-15 03:04:25:1994245232::RS->|0000|78                                             |x               |
+2017-01-15 03:04:25:1994245232::RS->|0000|fe                                             |.               |
+2017-01-15 03:04:25:1994245232::RS->|0000|78                                             |x               |
+2017-01-15 03:04:25:1994245232::RS->|0000|1e                                             |.               |
+2017-01-15 03:04:25:1994245232::RS->|0000|78                                             |x               |
+2017-01-15 03:04:25:1994245232:DEBUG_X:Waiting for modem/control line/timer/socket activity
+2017-01-15 03:04:25:1994245232:DEBUG_X:Command Mode=1, Connection status=0
+2017-01-15 03:04:25:1994245232:DEBUG:Data available on serial port
+2017-01-15 03:04:25:1994245232::RS<-|0000|fe 78 1e f8                                    |.x..            |
+2017-01-15 03:04:25:1994245232:DEBUG:Read 4 bytes from serial port
+2017-01-15 03:04:25:1994245232::RS->|0000|fe                                             |.               |
+2017-01-15 03:04:25:1994245232::RS->|0000|78                                             |x               |
+2017-01-15 03:04:25:1994245232::RS->|0000|1e                                             |.               |
+2017-01-15 03:04:25:1994245232::RS->|0000|f8                                             |.               |
+2017-01-15 03:04:25:1994245232:DEBUG_X:Waiting for modem/control line/timer/socket activity
+2017-01-15 03:04:25:1994245232:DEBUG_X:Command Mode=1, Connection status=0
+2017-01-15 03:04:27:1994245232:DEBUG:Data available on serial port
+2017-01-15 03:04:27:1994245232::RS<-|0000|78 78 fe 80                                    |xx..            |
+2017-01-15 03:04:27:1994245232:DEBUG:Read 4 bytes from serial port
+2017-01-15 03:04:27:1994245232::RS->|0000|78                                             |x               |
+2017-01-15 03:04:27:1994245232::RS->|0000|78                                             |x               |
+2017-01-15 03:04:27:1994245232::RS->|0000|fe                                             |.               |
+2017-01-15 03:04:27:1994245232::RS->|0000|80                                             |.               |
+2017-01-15 03:04:27:1994245232:DEBUG_X:Waiting for modem/control line/timer/socket activity
+2017-01-15 03:04:27:1994245232:DEBUG_X:Command Mode=1, Connection status=0
+2017-01-15 03:04:27:1994245232:DEBUG:Data available on serial port
+2017-01-15 03:04:27:1994245232::RS<-|0000|80 78 fe                                       |.x.             |
+2017-01-15 03:04:27:1994245232:DEBUG:Read 3 bytes from serial port
+2017-01-15 03:04:27:1994245232::RS->|0000|80                                             |.               |
+2017-01-15 03:04:27:1994245232::RS->|0000|78                                             |x               |
+2017-01-15 03:04:27:1994245232::RS->|0000|fe                                             |.               |
+2017-01-15 03:04:27:1994245232:DEBUG_X:Waiting for modem/control line/timer/socket activity
+2017-01-15 03:04:27:1994245232:DEBUG_X:Command Mode=1, Connection status=0
+2017-01-15 03:08:45:1994245232:DEBUG:Data available on serial port
+2017-01-15 03:08:45:1994245232::RS<-|0000|80 78 78 fe 80 78                              |.xx..x          |
+2017-01-15 03:08:45:1994245232:DEBUG:Read 6 bytes from serial port
+2017-01-15 03:08:45:1994245232::RS->|0000|80                                             |.               |
+2017-01-15 03:08:45:1994245232::RS->|0000|78                                             |x               |
+2017-01-15 03:08:45:1994245232::RS->|0000|78                                             |x               |
+2017-01-15 03:08:45:1994245232::RS->|0000|fe                                             |.               |
+2017-01-15 03:08:45:1994245232::RS->|0000|80                                             |.               |
+2017-01-15 03:08:45:1994245232::RS->|0000|78                                             |x               |
+2017-01-15 03:08:45:1994245232:DEBUG_X:Waiting for modem/control line/timer/socket activity
+2017-01-15 03:08:45:1994245232:DEBUG_X:Command Mode=1, Connection status=0
+2017-01-15 03:08:45:1994245232:DEBUG:Data available on serial port
+2017-01-15 03:08:45:1994245232::RS<-|0000|78 fe                                          |x.              |
+2017-01-15 03:08:45:1994245232:DEBUG:Read 2 bytes from serial port
+2017-01-15 03:08:45:1994245232::RS->|0000|78                                             |x               |
+2017-01-15 03:08:45:1994245232::RS->|0000|fe                                             |.               |
+2017-01-15 03:08:45:1994245232:DEBUG_X:Waiting for modem/control line/timer/socket activity
+2017-01-15 03:08:45:1994245232:DEBUG_X:Command Mode=1, Connection status=0
+2017-01-15 03:08:48:1994245232:DEBUG:Data available on serial port
+2017-01-15 03:08:48:1994245232::RS<-|0000|78 fe 78 fe 80 78                              |x.x..x          |
+2017-01-15 03:08:48:1994245232:DEBUG:Read 6 bytes from serial port
+2017-01-15 03:08:48:1994245232::RS->|0000|78                                             |x               |
+2017-01-15 03:08:48:1994245232::RS->|0000|fe                                             |.               |
+2017-01-15 03:08:48:1994245232::RS->|0000|78                                             |x               |
+2017-01-15 03:08:48:1994245232::RS->|0000|fe                                             |.               |
+2017-01-15 03:08:48:1994245232::RS->|0000|80                                             |.               |
+2017-01-15 03:08:48:1994245232::RS->|0000|78                                             |x               |
+2017-01-15 03:08:48:1994245232:DEBUG_X:Waiting for modem/control line/timer/socket activity
+2017-01-15 03:08:48:1994245232:DEBUG_X:Command Mode=1, Connection status=0
+2017-01-15 03:08:48:1994245232:DEBUG:Data available on serial port
+2017-01-15 03:08:48:1994245232::RS<-|0000|78 fe 78 fe 78                                 |x.x.x           |
+2017-01-15 03:08:48:1994245232:DEBUG:Read 5 bytes from serial port
+2017-01-15 03:08:48:1994245232::RS->|0000|78                                             |x               |
+2017-01-15 03:08:48:1994245232::RS->|0000|fe                                             |.               |
+2017-01-15 03:08:48:1994245232::RS->|0000|78                                             |x               |
+2017-01-15 03:08:48:1994245232::RS->|0000|fe                                             |.               |
+2017-01-15 03:08:48:1994245232::RS->|0000|78                                             |x               |
+2017-01-15 03:08:48:1994245232:DEBUG_X:Waiting for modem/control line/timer/socket activity
+2017-01-15 03:08:48:1994245232:DEBUG_X:Command Mode=1, Connection status=0
+2017-01-15 03:08:48:1994245232:DEBUG:Data available on serial port
+2017-01-15 03:08:48:1994245232::RS<-|0000|fe 78 fe 78 fe                                 |.x.x.           |
+2017-01-15 03:08:48:1994245232:DEBUG:Read 5 bytes from serial port
+2017-01-15 03:08:48:1994245232::RS->|0000|fe                                             |.               |
+2017-01-15 03:08:48:1994245232::RS->|0000|78                                             |x               |
+2017-01-15 03:08:48:1994245232::RS->|0000|fe                                             |.               |
+2017-01-15 03:08:48:1994245232::RS->|0000|78                                             |x               |
+2017-01-15 03:08:48:1994245232::RS->|0000|fe                                             |.               |
+2017-01-15 03:08:48:1994245232:DEBUG_X:Waiting for modem/control line/timer/socket activity
+2017-01-15 03:08:48:1994245232:DEBUG_X:Command Mode=1, Connection status=0
+2017-01-15 03:08:48:1994245232:DEBUG:Data available on serial port
+2017-01-15 03:08:48:1994245232::RS<-|0000|78 fe 78 fe 78 fe                              |x.x.x.          |
+2017-01-15 03:08:48:1994245232:DEBUG:Read 6 bytes from serial port
+2017-01-15 03:08:48:1994245232::RS->|0000|78                                             |x               |
+2017-01-15 03:08:48:1994245232::RS->|0000|fe                                             |.               |
+2017-01-15 03:08:48:1994245232::RS->|0000|78                                             |x               |
+2017-01-15 03:08:48:1994245232::RS->|0000|fe                                             |.               |
+2017-01-15 03:08:48:1994245232::RS->|0000|78                                             |x               |
+2017-01-15 03:08:48:1994245232::RS->|0000|fe                                             |.               |
+2017-01-15 03:08:48:1994245232:DEBUG_X:Waiting for modem/control line/timer/socket activity
+2017-01-15 03:08:48:1994245232:DEBUG_X:Command Mode=1, Connection status=0
+2017-01-15 03:08:48:1994245232:DEBUG:Data available on serial port
+2017-01-15 03:08:48:1994245232::RS<-|0000|78 fe 80 78 78                                 |x..xx           |
+2017-01-15 03:08:48:1994245232:DEBUG:Read 5 bytes from serial port
+2017-01-15 03:08:48:1994245232::RS->|0000|78                                             |x               |
+2017-01-15 03:08:48:1994245232::RS->|0000|fe                                             |.               |
+2017-01-15 03:08:48:1994245232::RS->|0000|80                                             |.               |
+2017-01-15 03:08:48:1994245232::RS->|0000|78                                             |x               |
+2017-01-15 03:08:48:1994245232::RS->|0000|78                                             |x               |
+2017-01-15 03:08:48:1994245232:DEBUG_X:Waiting for modem/control line/timer/socket activity
+2017-01-15 03:08:48:1994245232:DEBUG_X:Command Mode=1, Connection status=0
+2017-01-15 03:08:48:1994245232:DEBUG:Data available on serial port
+2017-01-15 03:08:48:1994245232::RS<-|0000|fe                                             |.               |
+2017-01-15 03:08:48:1994245232:DEBUG:Read 1 bytes from serial port
+2017-01-15 03:08:48:1994245232::RS->|0000|fe                                             |.               |
+2017-01-15 03:08:48:1994245232:DEBUG_X:Waiting for modem/control line/timer/socket activity
+2017-01-15 03:08:48:1994245232:DEBUG_X:Command Mode=1, Connection status=0
+2017-01-15 03:08:54:1994245232:DEBUG:Data available on serial port
+2017-01-15 03:08:54:1994245232::RS<-|0000|80 78 78 fe                                    |.xx.            |
+2017-01-15 03:08:54:1994245232:DEBUG:Read 4 bytes from serial port
+2017-01-15 03:08:54:1994245232::RS->|0000|80                                             |.               |
+2017-01-15 03:08:54:1994245232::RS->|0000|78                                             |x               |
+2017-01-15 03:08:54:1994245232::RS->|0000|78                                             |x               |
+2017-01-15 03:08:54:1994245232::RS->|0000|fe                                             |.               |
+2017-01-15 03:08:54:1994245232:DEBUG_X:Waiting for modem/control line/timer/socket activity
+2017-01-15 03:08:54:1994245232:DEBUG_X:Command Mode=1, Connection status=0
+2017-01-15 03:08:57:1994245232:DEBUG:Data available on serial port
+2017-01-15 03:08:57:1994245232::RS<-|0000|78 78 fe 78 fe 80                              |xx.x..          |
+2017-01-15 03:08:57:1994245232:DEBUG:Read 6 bytes from serial port
+2017-01-15 03:08:57:1994245232::RS->|0000|78                                             |x               |
+2017-01-15 03:08:57:1994245232::RS->|0000|78                                             |x               |
+2017-01-15 03:08:57:1994245232::RS->|0000|fe                                             |.               |
+2017-01-15 03:08:57:1994245232::RS->|0000|78                                             |x               |
+2017-01-15 03:08:57:1994245232::RS->|0000|fe                                             |.               |
+2017-01-15 03:08:57:1994245232::RS->|0000|80                                             |.               |
+2017-01-15 03:08:57:1994245232:DEBUG_X:Waiting for modem/control line/timer/socket activity
+2017-01-15 03:08:57:1994245232:DEBUG_X:Command Mode=1, Connection status=0
+2017-01-15 03:08:57:1994245232:DEBUG:Data available on serial port
+2017-01-15 03:08:57:1994245232::RS<-|0000|80 78 1e 80 80 80                              |.x....          |
+2017-01-15 03:08:57:1994245232:DEBUG:Read 6 bytes from serial port
+2017-01-15 03:08:57:1994245232::RS->|0000|80                                             |.               |
+2017-01-15 03:08:57:1994245232::RS->|0000|78                                             |x               |
+2017-01-15 03:08:57:1994245232::RS->|0000|1e                                             |.               |
+2017-01-15 03:08:57:1994245232::RS->|0000|80                                             |.               |
+2017-01-15 03:08:57:1994245232::RS->|0000|80                                             |.               |
+2017-01-15 03:08:57:1994245232::RS->|0000|80                                             |.               |
+2017-01-15 03:08:57:1994245232:DEBUG_X:Waiting for modem/control line/timer/socket activity
+2017-01-15 03:08:57:1994245232:DEBUG_X:Command Mode=1, Connection status=0
+2017-01-15 03:08:57:1994245232:DEBUG:Data available on serial port
+2017-01-15 03:08:57:1994245232::RS<-|0000|78 fe f8 78 80                                 |x..x.           |
+2017-01-15 03:08:57:1994245232:DEBUG:Read 5 bytes from serial port
+2017-01-15 03:08:57:1994245232::RS->|0000|78                                             |x               |
+2017-01-15 03:08:57:1994245232::RS->|0000|fe                                             |.               |
+2017-01-15 03:08:57:1994245232::RS->|0000|f8                                             |.               |
+2017-01-15 03:08:57:1994245232::RS->|0000|78                                             |x               |
+2017-01-15 03:08:57:1994245232::RS->|0000|80                                             |.               |
+2017-01-15 03:08:57:1994245232:DEBUG_X:Waiting for modem/control line/timer/socket activity
+2017-01-15 03:08:57:1994245232:DEBUG_X:Command Mode=1, Connection status=0
+2017-01-15 03:08:57:1994245232:DEBUG:Data available on serial port
+2017-01-15 03:08:57:1994245232::RS<-|0000|f8 80 f8 80 78 fe 80                           |....x..         |
+2017-01-15 03:08:57:1994245232:DEBUG:Read 7 bytes from serial port
+2017-01-15 03:08:57:1994245232::RS->|0000|f8                                             |.               |
+2017-01-15 03:08:57:1994245232::RS->|0000|80                                             |.               |
+2017-01-15 03:08:57:1994245232::RS->|0000|f8                                             |.               |
+2017-01-15 03:08:57:1994245232::RS->|0000|80                                             |.               |
+2017-01-15 03:08:57:1994245232::RS->|0000|78                                             |x               |
+2017-01-15 03:08:57:1994245232::RS->|0000|fe                                             |.               |
+2017-01-15 03:08:57:1994245232::RS->|0000|80                                             |.               |
+2017-01-15 03:08:57:1994245232:DEBUG_X:Waiting for modem/control line/timer/socket activity
+2017-01-15 03:08:57:1994245232:DEBUG_X:Command Mode=1, Connection status=0
+2017-01-15 03:08:57:1994245232:DEBUG:Data available on serial port
+2017-01-15 03:08:57:1994245232::RS<-|0000|78 80 78 fe                                    |x.x.            |
+2017-01-15 03:08:57:1994245232:DEBUG:Read 4 bytes from serial port
+2017-01-15 03:08:57:1994245232::RS->|0000|78                                             |x               |
+2017-01-15 03:08:57:1994245232::RS->|0000|80                                             |.               |
+2017-01-15 03:08:57:1994245232::RS->|0000|78                                             |x               |
+2017-01-15 03:08:57:1994245232::RS->|0000|fe                                             |.               |
+2017-01-15 03:08:57:1994245232:DEBUG_X:Waiting for modem/control line/timer/socket activity
+2017-01-15 03:08:57:1994245232:DEBUG_X:Command Mode=1, Connection status=0
