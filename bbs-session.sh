@@ -1,5 +1,6 @@
 #!/bin/bash
 DEVICE=/dev/ttyAMA0
+SPEED=2400
 PORT=6400
 FILENAME="session.log"
 ESTAB="ESTAB"
@@ -17,13 +18,11 @@ while [ "$X" -gt 0 ]; do
 	cat seqs/connect-status.seq >> seqs/bbs-welcome.seq
 
 	pkill tcpser
-
-        #nohup tcpser -d $DEVICE -s 2400 -tsS -l 7 -i "s0=1&s2=43&e0q0v0&c0x1&k0&w" -a seqs/bbs-welcome.seq -T seqs/bbs-timeout.seq -B seqs/bbs-busy.seq -p $PORT -I > $FILENAME &
   
-	tcpser -d $DEVICE -s 1200 -tsS -l 7 -i "s0=1&s2=43&e0q0v0&c0x1&k0&w" -a seqs/bbs-welcome.seq -T seqs/bbs-timeout.seq -B seqs/bbs-busy.seq -p $PORT > $FILENAME &
+	tcpser -d $DEVICE -s $SPEED -tsS -l 7 -i "s0=1&s2=43&e0q0v0&c0x1&k0&w" -a seqs/bbs-welcome.seq -T seqs/bbs-timeout.seq -B seqs/bbs-busy.seq -p $PORT > $FILENAME &
 	
 	sleep 1
-    	
+    
 	echo "...waiting for new connection"
 
 	STATUS=$(ss -tp | grep 'tcpser' | awk '{print $1}')
