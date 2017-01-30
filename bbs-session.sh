@@ -1,13 +1,18 @@
 #!/bin/bash
 DEVICE=/dev/ttyAMA0
-SPEED=2400
 PORT=6400
-FILENAME="session.log"
+FILENAME="session2.log"
 ESTAB="ESTAB"
 TIMEOUT=60
 X=1
 
 sudo /usr/local/bin/noip2
+
+pkill tcpser
+nohup tcpser -d $DEVICE -s 2400 -tsS -l 7 -i "s0=1&s2=43&e0q0v0&c0x1&k0&w" -a seqs/bbs-welcome.seq -T seqs/bbs-timeout.seq -B seqs/bbs-busy.seq -p $PORT -I > $FILENAME &
+
+
+#./tcpser -d $DEVICE -s 2400 -tsS -l 7 -i "s0=1&s2=43&e0q0v0&c0x1&k0&w" -I -a seqs/bbs-welcome.seq -T seqs/bbs-timeout.seq -B seqs/bbs-busy.seq -p 2000 > $FILENAME &
 
 while [ "$X" -gt 0 ]; do
 
@@ -15,14 +20,8 @@ while [ "$X" -gt 0 ]; do
 
 	cat seqs/connect-msg.seq > seqs/bbs-welcome.seq
 	cat seqs/$FILENUM-logo.seq >> seqs/bbs-welcome.seq
-	cat seqs/connect-status.seq >> seqs/bbs-welcome.seq
-
-	pkill tcpser
-  
-	tcpser -d $DEVICE -s $SPEED -tsS -l 7 -i "s0=1&s2=43&e0q0v0&c0x1&k0&w" -a seqs/bbs-welcome.seq -T seqs/bbs-timeout.seq -B seqs/bbs-busy.seq -p $PORT > $FILENAME &
+	#cat seqs/connect-status.seq >> seqs/bbs-welcome.seq
 	
-	sleep 1
-    
 	echo "...waiting for new connection"
 
 	STATUS=$(ss -tp | grep 'tcpser' | awk '{print $1}')
@@ -31,8 +30,6 @@ while [ "$X" -gt 0 ]; do
 		sleep 1
 		STATUS=$(ss -tp | grep 'tcpser' | awk '{print $1}')
 	done
-
-        aplay audio/impossible_mission_-_another_visitor.wav &
 
 	echo "$(ss -tp | grep 'tcpser')"
 	#echo $(netstat -tn 2>/dev/null | grep :6400)
@@ -52,15 +49,13 @@ while [ "$X" -gt 0 ]; do
 
 		if [ $CHECKSENT -eq 0 ]
 		then
-			CGMODE=$(tail -50 $FILENAME | grep '> ')
+			CGMODE=$(tail -10 $FILENAME | grep '> ')
 
 			if [ -n "$CGMODE" ]
 			then
 				echo "...checkmark sent"
 				perl -C -e 'print chr 0xe1ba' > $DEVICE
 				CHECKSENT=1
-
-				aplay audio/impossible_mission_-_stay_a_while_stay_forever.wav &
 			fi
 			
 			SIZEONE=$SIZETWO
@@ -106,24 +101,23 @@ while [ "$X" -gt 0 ]; do
 			fi
 		fi
 
-		PLUSES=$(tail -100 $FILENAME | grep '|+++             |')
+		#PLUSES=$(tail -100 $FILENAME | grep '|+++             |')
 
-		if [ -n "$PLUSES" ]
-		then
-			echo "...hangup"
-			HANGUP=1
-			aplay audio/impossible_mission_-_mission_accomplished.wav &
-		fi
+		#if [ -n "$PLUSES" ]
+		#then
+		#	echo "...hangup"
+		#	HANGUP=1
+		#fi
 
-		#echo "$(ss -tp | grep 'tcpser')"
-		#echo $(netstat -tn 2>/dev/null | grep :6400)
+	
+		#tail -f session.log | grep -m 1 "|XXXX            |" | xargs perl -C -e 'print "123-456-7890^M"' > $DEVICE
+
 		STATUS=$(ss -tp | grep 'tcpser' | awk '{print $1}')
 
 	done
 
 	echo "$(date)"
 		
-	#tail -f session.log | grep -m 1 "|XXXX            |" | xargs perl -C -e 'print "123-456-7890"' > $DEVICE
-
+	#> $FILENAME
 
 done

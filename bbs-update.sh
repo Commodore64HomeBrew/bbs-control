@@ -19,7 +19,7 @@ done
 bash killsession.sh
 bash killsession.sh
 
-tcpser -v 25232 -s 1200 -tsS -l 7 -i "s0=1&s2=43&e0q0v0&c0x1&k0&w" -a seqs/bbs-update.seq -T seqs/bbs-timeout.seq -B seqs/bbs-busy.seq -p 6400 &
+tcpser -v 25232 -s 2400 -tsS -l 7 -i "s0=1&s2=43&e0q0v0&c0x1&k0&w" -a seqs/bbs-update.seq -T seqs/bbs-timeout.seq -B seqs/bbs-busy.seq -p 6400 &
 
 sleep 30
 
@@ -34,7 +34,7 @@ echo "...update complete" >> $FILEOUT
 bash backupsubs.sh
 echo "...backupsubs complete" >> $FILEOUT
 
-pkill tcpser
+pkill 
 
 nohup bash bbs-session.sh >> bbs-session.log &
 
