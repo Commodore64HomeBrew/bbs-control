@@ -15,185 +15,183 @@
       <url>http://www.cbc.ca/rss/image/cbc_144.gif</url>
       <link>http://www.cbc.ca/news/?cmp=rss</link>
     </image>
-    <item cbc:type="story" cbc:deptid="2.652" cbc:syndicate="true">
-      <title><![CDATA['People who were praying lost their lives': 6 killed in Quebec City mosque shooting ]]></title>
-            <link>http://www.cbc.ca/news/canada/montreal/quebec-city-mosque-gun-shots-1.3957686?cmp=rss</link>
-      <pubDate>Sun, 29 Jan 2017 21:25:47 EST</pubDate>
-                        <author>CBC News</author>
-      										      <category>News/Canada/Montreal</category>
+    <item cbc:type="story" cbc:deptid="2.657" cbc:syndicate="true">
+      <title><![CDATA[The fresh, young face of Ottawa's opioid tragedy]]></title>
+            <link>http://www.cbc.ca/news/canada/ottawa/opioids-fentanyl-teenagers-ottawa-1.4006568?cmp=rss</link>
+      <pubDate>Sat, 4 Mar 2017 05:00:00 EST</pubDate>
+                        <author>Alistair Steele</author>
+      										      <category>News/Canada/Ottawa</category>
       <description>
         <![CDATA[
-                        <img src='https://i.cbc.ca/1.3957762.1485751304!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_460/canada-mosque-shooting.jpg' alt='CANADA-MOSQUE/SHOOTING' width='460' title='Quebec City Police said they are working with the RCMP and the Quebec provincial police.' height='259' />                <p>Quebec provincial police say six people are dead and eight were wounded after shots were fired inside a mosque on Sunday night during evening prayers, an act Quebec's premier described as "murderous act directed at a specific community."</p>
+                        <img src='https://i.cbc.ca/1.4002384.1488284044!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_460/chloe-kotval-all-saint-high-school-overdose-fentanyl-ottawa-kanata-undated.jpg' alt='Chloe Kotval All Saint High School overdose fentanyl Ottawa Kanata undated' width='460' title='Grade 9 student Chloe Kotval was found unresponsive after overdosing on pills laced with fentanyl on Feb. 12. She died in hospital two days later, on Valentine&#39;s Day.' height='259' />                <p>The death of a 14-year-old from a fentanyl overdose has stoked fears about an opioid epidemic among Ottawa teens, but the statistics suggest otherwise.</p>
         ]]>
       </description>
     </item>
     <item cbc:type="story" cbc:deptid="2.633" cbc:syndicate="true">
-      <title><![CDATA['Wish our leader was Trudeau': Protests held across U.S. over travel ban]]></title>
-            <link>http://www.cbc.ca/news/world/united-states-travel-ban-protests-1.3957782?cmp=rss</link>
-      <pubDate>Mon, 30 Jan 2017 01:48:28 EST</pubDate>
+      <title><![CDATA[Trump claims Obama had his phones wiretapped, no proof cited]]></title>
+            <link>http://www.cbc.ca/news/world/trump-obama-wiretap-allegation-1.4010163?cmp=rss</link>
+      <pubDate>Sat, 4 Mar 2017 11:32:03 EST</pubDate>
+                        <author>The Associated Press</author>
+      							      <category>News/World</category>
+      <description>
+        <![CDATA[
+                        <img src='https://i.cbc.ca/1.3843176.1478700167!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_460/obama-trump-composite.jpg' alt='obama trump composite' width='460' title='U.S. President Barack Obama and president-elect Donald Trump. ' height='259' />                <p>U.S. President Donald Trump has accused former president Barack Obama of having Trump Tower telephone lines wiretapped during last year's election, but didn't offer any evidence or say what prompted the allegation.</p>
+        ]]>
+      </description>
+    </item>
+    <item cbc:type="story" cbc:deptid="2.652" cbc:syndicate="true">
+      <title><![CDATA[Far right groups, opponents clash at Montreal protest against federal Islamophobia motion ]]></title>
+            <link>http://www.cbc.ca/news/canada/montreal/far-right-groups-opponents-clash-at-montreal-protest-against-federal-islamophobia-motion-1.4010179?cmp=rss</link>
+      <pubDate>Sat, 4 Mar 2017 11:45:03 EST</pubDate>
+                        <author>Jonathan Montpetit,Stephen Smith</author>
+      										      <category>News/Canada/Montreal</category>
+      <description>
+        <![CDATA[
+                        <img src='https://i.cbc.ca/1.4010284.1488654984!/fileImage/httpImage/image.JPG_gen/derivatives/16x9_460/m-103-protest-montreal.JPG' alt='M-103 protest montreal' width='460' title='Far right protesters clash with Communists on a Montreal street Saturday. ' height='259' />                <p>Far right groups in Montreal clashed with opponents at a demonstration against a House of Commons motion condemning Islamophobia.</p>
+        ]]>
+      </description>
+    </item>
+    <item cbc:type="story" cbc:deptid="2.633" cbc:syndicate="true">
+      <title><![CDATA[Reporting with a blindfold: What it's like to be a journalist covering North Korea]]></title>
+            <link>http://www.cbc.ca/news/world/north-korea-journalism-diana-swain-the-investigators-1.4008997?cmp=rss</link>
+      <pubDate>Sat, 4 Mar 2017 09:00:00 EST</pubDate>
+                        <author>Diana Swain</author>
+      							      <category>News/World</category>
+      <description>
+        <![CDATA[
+                        <img src='https://i.cbc.ca/1.4009897.1488588801!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_460/was8972071.jpg' alt='Was8972071' width='460' title='A North Korean soldier stands before spectators during a mass military parade at Kim Il-Sung square in Pyongyang on Oct. 10, 2015.' height='259' />                <p>The odd death of Kim Jong-nam, the estranged half-brother of North Korea's leader Kim Jong-un, has focused a spotlight on the secretive country. But that light isn't revealing much for journalists trying to investigate what happened.</p>
+        ]]>
+      </description>
+    </item>
+    <item cbc:type="story" cbc:deptid="2.633" cbc:syndicate="true">
+      <title><![CDATA[Violence, arrests mar day of pro-Trump rallies across U.S.]]></title>
+            <link>http://www.cbc.ca/news/world/trump-rallies-spirit-of-america-supporters-1.4010396?cmp=rss</link>
+      <pubDate>Sat, 4 Mar 2017 17:33:56 EST</pubDate>
                         <author>Reuters</author>
       							      <category>News/World</category>
       <description>
         <![CDATA[
-                        <img src='https://i.cbc.ca/1.3957792.1485758288!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_460/94268262.jpg' alt='94268262' width='460' title='A demonstrator holds a sign outside of the Trump Hotel International in Washington., D.C., during a protest on Sunday. Protestors around the country gathered to protest President Donald Trump&#39;s executive order barring the citizens of Muslim-majority countries Iraq, Syria, Iran, Sudan, Libya, Somalia and Yemen from travelling to the U.S.
-
-' height='259' />                <p>Tens of thousands of people rallied in U.S. cities and at airports on Sunday to voice outrage over President Donald Trump's executive order restricting entry into the country for travellers from seven Muslim-majority nations.</p>
-        ]]>
-      </description>
-    </item>
-    <item cbc:type="story" cbc:deptid="2.634" cbc:syndicate="true">
-      <title><![CDATA['I've been driving for two days': Travel ban stokes fear, worry in Canada's tech community]]></title>
-            <link>http://www.cbc.ca/news/technology/canada-technology-trump-travel-ban-executive-order-immigration-1.3957412?cmp=rss</link>
-      <pubDate>Sun, 29 Jan 2017 15:41:51 EST</pubDate>
-                        <author>Matthew Braga</author>
-      							      <category>News/Technology &amp; Science</category>
-      <description>
-        <![CDATA[
-                        <img src='https://i.cbc.ca/1.3918791.1483398224!/cpImage/httpImage/image.jpg_gen/derivatives/16x9_460/us-cda-bill-20161210.jpg' alt='US Cda Bill 20161210' width='460' title='The United States border crossing is shown Wednesday, December 7, 2011 in Lacolle, Que., south of Montreal. A bill with potentially sweeping consequences for the Canada-U.S. border has just been adopted by the American Congress, allowing new projects aimed at speeding up travel through the international boundary. THE CANADIAN PRESS/Ryan Remiorz' height='259' />                <p>Members of Canada's technology community spent the weekend grappling with the implications of U.S. President Trump's executive order on immigration — with one entrepreneur reaching the border just as the order was signed.</p>
-        ]]>
-      </description>
-    </item>
-    <item cbc:type="story" cbc:deptid="2.654" cbc:syndicate="true">
-      <title><![CDATA[Military to help New Brunswick recover from ice storm]]></title>
-            <link>http://www.cbc.ca/news/canada/new-brunswick/gallant-update-ice-storm-1.3957405?cmp=rss</link>
-      <pubDate>Sun, 29 Jan 2017 13:57:10 EST</pubDate>
-                        <author>Mackenzie Scrimshaw</author>
-      										      <category>News/Canada/New Brunswick</category>
-      <description>
-        <![CDATA[
-                        <img src='https://i.cbc.ca/1.3956147.1485555044!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_460/nb-ice-storm-acadian-peninsula.jpg' alt='nb-ice-storm-acadian-peninsula' width='460' title='One scene from New Brunswick&#39;s ice-coated Acadian peninsula on Friday.' height='259' />                <p>Speaking at a news conference in Shippagan, N.B., Premier Brian Gallant said members of the Canadian Armed Forces will be deployed to the areas of the province affected most severely by Tuesday’s ice storm.</p>
-        ]]>
-      </description>
-    </item>
-    <item cbc:type="story" cbc:deptid="2.633" cbc:syndicate="true">
-      <title><![CDATA['Crisis mode:' Trump's ban sparks mass confusion as conflicting details emerge ]]></title>
-            <link>http://www.cbc.ca/news/world/trump-immigration-refugee-travel-executive-order-1.3957205?cmp=rss</link>
-      <pubDate>Sun, 29 Jan 2017 07:36:27 EST</pubDate>
-                        <author>CBC News</author>
-      							      <category>News/World</category>
-      <description>
-        <![CDATA[
-                        <img src='https://i.cbc.ca/1.3957667.1485736670!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_460/usa-trump-immigration.jpg' alt='USA-TRUMP/IMMIGRATION' width='460' title='A Muslim women holds a sign during anti-Donald Trump travel ban protests outside Philadelphia International Airport in Philadelphia, Pennsylvania, U.S., January 29, 2017. REUTERS/Charles Mostoller - RTSXYLD' height='259' />                <p>The Trump administration is showing no signs of backing down from an executive order barring citizens from seven Muslim-majority countries from entering the U.S., but ever-changing details about how the sweeping new rules should be enforced are sowing chaos and confusion.</p>
+                        <img src='https://i.cbc.ca/1.4010605.1488693269!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_460/usa-trump-supporters.jpg' alt='USA-TRUMP/SUPPORTERS' width='460' title='A demonstrator in support of U.S. President Donald Trump swings a stick towards a group of counter-protesters during a "People 4 Trump" rally in Berkeley, California March 4, 2017.' height='259' />                <p>Supporters at a Saturday rally in favour of U.S. President Donald Trump clashed with counter-protesters in the famously left-leaning city of Berkeley, Calif.</p>
         ]]>
       </description>
     </item>
     <item cbc:type="story" cbc:deptid="2.641" cbc:syndicate="true">
-      <title><![CDATA[Trudeau in B.C.: Dotting the eye on the lion, but downplaying Trans Mountain]]></title>
-            <link>http://www.cbc.ca/news/canada/british-columbia/justin-trudeau-lunar-new-year-parade-1.3957463?cmp=rss</link>
-      <pubDate>Sun, 29 Jan 2017 15:50:32 EST</pubDate>
-                        <author>The Canadian Press</author>
+      <title><![CDATA[Creep Busters ambush of man with mental disability called 'vigilantism']]></title>
+            <link>http://www.cbc.ca/news/canada/british-columbia/creep-busters-ambush-of-man-with-mental-disability-called-vigilantism-1.4009147?cmp=rss</link>
+      <pubDate>Fri, 3 Mar 2017 21:48:11 EST</pubDate>
+                        <author>Eric Rankin</author>
       										      <category>News/Canada/British Columbia</category>
       <description>
         <![CDATA[
-                        <img src='https://i.cbc.ca/1.3957491.1485722686!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_460/trudeau-20170129.jpg' alt='Trudeau 20170129' width='460' title='Prime Minister Justin Trudeau and Defence Minister Harjit Sajjan, back right, attend the Lunar New Year parade in Vancouver, B.C., on Sunday, Jan. 29, 2017. ' height='259' />                <p>Prime Minister Justin Trudeau smiled and waved during his latest visit to Vancouver, but didn't stop to answer questions on a number of issues facing Canadians.</p>
-        ]]>
-      </description>
-    </item>
-    <item cbc:type="story" cbc:deptid="2.635" cbc:syndicate="true">
-      <title><![CDATA[Hidden Figures, Denzel Washington among Screen Actors Guild award winners]]></title>
-            <link>http://www.cbc.ca/news/entertainment/sag-awards-2017-1.3957736?cmp=rss</link>
-      <pubDate>Sun, 29 Jan 2017 23:41:49 EST</pubDate>
-                        <author>The Associated Press</author>
-      							      <category>News/Entertainment</category>
-      <description>
-        <![CDATA[
-                        <img src='https://i.cbc.ca/1.3957748.1485750907!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_460/taraji-henson-hidden-fences.jpg' alt='Taraji Henson/Hidden Fences' width='460' title='Taraji P. Henson, from right, Janelle Monae, Octavia Spencer, Kimberly Quinn, and Saniyya Sidney, foreground left, accept the award for outstanding performance by a cast in a motion picture for Hidden Figures at the 23rd annual Screen Actors Guild Awards at the Shrine Auditorium & Expo Hall on Sunday.  ' height='259' />                <p>The cast of Hidden Figures rocketed to the Screen Actors Guild top award at a fiery, protest-laden ceremony that was dominated by defiance over President Trump's sweeping immigration ban.</p>
+                        <img src='https://i.cbc.ca/1.4009292.1488573499!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_460/jaxson-jacoe.jpg' alt='Jaxson Jacoe' width='460' title='Jaxson Jacoe thought he found a friend online but instead lost his job after a vigilante ambush by Creep Catchers - Creep Busters. ' height='259' />                <p>A branch of Creep Catchers and the related group Creep Busters are once again under fire — accused of teaming up to wrongly target and publicly humiliate a developmentally-delayed man.</p>
         ]]>
       </description>
     </item>
     <item cbc:type="story" cbc:deptid="2.636" cbc:syndicate="true">
-      <title><![CDATA[U.S. won't ban Canadian permanent residents, immigration minister says]]></title>
-            <link>http://www.cbc.ca/news/politics/canada-hussen-reaction-to-trump-travel-restrictions-1.3957515?cmp=rss</link>
-      <pubDate>Sun, 29 Jan 2017 16:29:33 EST</pubDate>
-                        <author>The Canadian Press</author>
+      <title><![CDATA[Ukraine's Soviet-like military looks to Canada for help with modernization]]></title>
+            <link>http://www.cbc.ca/news/politics/ukraine-russia-canada-forces-1.3982326?cmp=rss</link>
+      <pubDate>Sat, 4 Mar 2017 05:00:00 EST</pubDate>
+                        <author>Evan Dyer</author>
       							      <category>News/Politics</category>
       <description>
         <![CDATA[
-                        <img src='https://i.cbc.ca/1.3957573.1485728177!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_460/usa-trump-immigration.jpg' alt='USA-TRUMP/IMMIGRATION' width='460' title='Izzy Berdan (R) joins the "Boston Protest Against Muslim Ban and Anti-Immigration Orders" to protest U.S. President Donald Trump&#39;s executive order travel ban in Boston, Massachusetts, U.S. January 29, 2017. ' height='259' />                <p>The federal government moved to clear up confusion that surrounded a U.S. travel ban on citizens of seven predominantly Muslim countries by announcing that Canadian citizens and permanent residents with roots in those countries can still cross the border.</p>
+                        <img src='https://i.cbc.ca/1.4007217.1488486024!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_460/ukraine-crisis-fighting-poroshenko.jpg' alt='UKRAINE-CRISIS/FIGHTING-POROSHENKO' width='460' title='Ukrainian servicemen are seen at their position on the front line near the government-held industrial town of Avdiyivka, Ukraine February 4, 2017. ' height='259' />                <p>With the war in Eastern Ukraine grinding on, away from the international headlines, Ukraine's Soviet-era military is struggling to suppress separatist forces backed by a modern, well-resourced Russian machine. And it is looking to Canada for help.</p>
+        ]]>
+      </description>
+    </item>
+    <item cbc:type="story" cbc:deptid="2.643" cbc:syndicate="true">
+      <title><![CDATA['I tried to make change': Alberta's top RCMP officer looks back on 35-year career]]></title>
+            <link>http://www.cbc.ca/news/canada/edmonton/alberta-s-top-rcmp-officer-marianne-ryan-retires-after-35-year-career-1.4009183?cmp=rss</link>
+      <pubDate>Sat, 4 Mar 2017 05:00:00 EST</pubDate>
+                        <author>Briar Stewart</author>
+      										      <category>News/Canada/Edmonton</category>
+      <description>
+        <![CDATA[
+                        <img src='https://i.cbc.ca/1.4009553.1488578737!/fileImage/httpImage/image.png_gen/derivatives/16x9_460/marianne-ryan.png' alt='Marianne Ryan' width='460' title='RCMP Deputy Commissioner retires from the RCMP after a career that spanned 35 years and 3 provinces.  ' height='259' />                <p>Marianne Ryan, the RCMP's commanding officer in Alberta, is retiring, ending a career that spanned 35 years, three provinces and included many firsts.</p>
+        ]]>
+      </description>
+    </item>
+    <item cbc:type="story" cbc:deptid="2.651" cbc:syndicate="true">
+      <title><![CDATA[$30K pledged for Manitoba town facing influx of asylum seekers]]></title>
+            <link>http://www.cbc.ca/news/canada/manitoba/ministers-visit-emerson-1.4010144?cmp=rss</link>
+      <pubDate>Sat, 4 Mar 2017 11:11:38 EST</pubDate>
+                        <author>CBC News</author>
+      										      <category>News/Canada/Manitoba</category>
+      <description>
+        <![CDATA[
+                        <img src='https://i.cbc.ca/1.4010338.1488659448!/cpImage/httpImage/image.jpg_gen/derivatives/16x9_460/border-crossers-goodale-20170304.jpg' alt='Border Crossers Goodale 20170304' width='460' title='Public Safety Minister Ralph Goodale speaks to the media after a visit with officials at the fire hall in Emerson, Man., on Saturday, March 4, 2017.' height='259' />                <p>As the number of asylum seekers crossing into Canada surges, Public Safety Minister Ralph Goodale pledged cash for the small Manitoba town most affected by the influx and said the federal government will continue to watch the situation.</p>
+        ]]>
+      </description>
+    </item>
+    <item cbc:type="story" cbc:deptid="2.635" cbc:syndicate="true">
+      <title><![CDATA['Canada at its best': Trudeau will take in Come From Away on Broadway]]></title>
+            <link>http://www.cbc.ca/news/entertainment/trudeau-attending-come-from-away-1.4010385?cmp=rss</link>
+      <pubDate>Sat, 4 Mar 2017 17:55:38 EST</pubDate>
+                        <author>Zulekha Nathoo</author>
+      							      <category>News/Entertainment</category>
+      <description>
+        <![CDATA[
+                        <img src='https://i.cbc.ca/1.3988967.1487365256!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_460/canada-election.jpg' alt='CANADA-ELECTION/' width='460' title='Liberal Party leader Justin Trudeau gives his victory speech after Canada&#39;s federal election in Montreal, Quebec, October 19, 2015. ' height='259' />                <p>The Prime Minister will take in the Newfoundland-inspired musical Come From Away on Broadway later this month.</p>
+        ]]>
+      </description>
+    </item>
+    <item cbc:type="story" cbc:deptid="2.635" cbc:syndicate="true">
+      <title><![CDATA[Arnold Schwarzenegger to Donald Trump: Think about hiring 'fact checker']]></title>
+            <link>http://www.cbc.ca/news/entertainment/schwarzenegger-trump-apprentice-twitter-1.4010249?cmp=rss</link>
+      <pubDate>Sat, 4 Mar 2017 14:35:48 EST</pubDate>
+                        <author>Zulekha Nathoo</author>
+      							      <category>News/Entertainment</category>
+      <description>
+        <![CDATA[
+                        <img src='https://i.cbc.ca/1.3890973.1481390142!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_460/trump-schwarzenegger-composite.jpg' alt='Trump Schwarzenegger composite ' width='460' title='' height='259' />                <p>Arnold Schwarzenegger isn't letting slide criticism about his performance on The New Celebrity Apprentice reality show — even if it's coming from the president himself.</p>
         ]]>
       </description>
     </item>
     <item cbc:type="story" cbc:deptid="2.637" cbc:syndicate="true">
-      <title><![CDATA[Starbucks plans to hire 10,000 refugees worldwide in next 5 years]]></title>
-            <link>http://www.cbc.ca/news/business/starbucks-schultz-refugee-hiring-1.3957752?cmp=rss</link>
-      <pubDate>Sun, 29 Jan 2017 23:49:27 EST</pubDate>
-                        <author>The Associated Press</author>
+      <title><![CDATA[Visitor says mandatory tourism fee on Niagara Falls hotel stay felt like a 'cash grab']]></title>
+            <link>http://www.cbc.ca/news/business/niagara-falls-tourism-fee-marketplace-1.4001972?cmp=rss</link>
+      <pubDate>Sat, 4 Mar 2017 05:00:00 EST</pubDate>
+                        <author>Asha Tomlinson and Nelisha Vellani</author>
       							      <category>News/Business</category>
       <description>
         <![CDATA[
-                        <img src='https://i.cbc.ca/1.3957763.1485751709!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_460/howard-schultz.jpg' alt='Howard Schultz' width='460' title='In this Dec. 7, 2016, file photo, Starbucks Chairman and CEO Howard Schultz speaks during the Starbucks 2016 Investor Day meeting in New York. Schultz said the hiring of refugees would apply worldwide and that within the U.S. recruiting would be prioritize those who have helped serve the U.S. military. ' height='259' />                <p>Starbucks says it will hire 10,000 refugees over the next five years, a response to President Donald Trump's indefinite suspension of Syrian refugees and temporary travel bans that apply to six other Muslim-majority nations.</p>
+                        <img src='https://i.cbc.ca/1.4002038.1488240046!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_460/niagara-falls.jpg' alt='Niagara falls ' width='460' title='A general view taken from the Canadian side shows the Horseshoe Falls in Niagara from the Canadian side in Niagara Falls, Ontario, August 21, 2015. Picture taken August 21, 2015.' height='259' />                <p>Every year, millions of people flock to Niagara Falls, Ont., shelling out hundreds of dollars for hotels, restaurants and attractions clustered around the towering falls. But at some businesses, visitors are finding a contentious tourism fee is now a mandatory part of their bill.</p>
+        ]]>
+      </description>
+    </item>
+    <item cbc:type="story" cbc:deptid="2.634" cbc:syndicate="false">
+      <title><![CDATA[Time for a 'use it or lose it' rule for Canadian streaming rights, advocates say]]></title>
+            <link>http://www.cbc.ca/news/technology/streaming-rights-use-it-or-lose-it-1.4003319?cmp=rss</link>
+      <pubDate>Sat, 4 Mar 2017 05:00:00 EST</pubDate>
+                        <author>Peter Nowak</author>
+      							      <category>News/Technology &amp; Science</category>
+      <description>
+        <![CDATA[
+                        <img src='https://i.cbc.ca/1.4003835.1488325815!/fileImage/httpImage/image.JPG_gen/derivatives/16x9_460/the-americans-2.JPG' alt='The Americans 2' width='460' title='' height='259' />                <p>A long list of popular series — including The Americans and many HBO shows — are being kept off Canadian streaming services by traditional broadcasters, leading some advocates to call for use-it-or-lose-it rules on streaming rights.</p>
+        ]]>
+      </description>
+    </item>
+    <item cbc:type="story" cbc:deptid="2.655" cbc:syndicate="true">
+      <title><![CDATA[Applications open for sea voyage around Canada's 3 coasts]]></title>
+            <link>http://www.cbc.ca/news/canada/north/canada-c3-applications-open-coast-1.4009280?cmp=rss</link>
+      <pubDate>Sat, 4 Mar 2017 09:51:15 EST</pubDate>
+                        <author>Sara Frizzell</author>
+      										      <category>News/Canada/North</category>
+      <description>
+        <![CDATA[
+                        <img src='https://i.cbc.ca/1.4009726.1488582646!/fileImage/httpImage/image.png_gen/derivatives/16x9_460/ship-bow.png' alt='Ship bow ' width='460' title='For the C3 journey the ship will be an old Canadian Coast Guard icebreaker painted to reflect the Canadian flag. ' height='259' />                <p>An ambitious plan for a sea voyage around Canada's three coasts was 'born in the Arctic' says expedition leader Geoff Green.</p>
         ]]>
       </description>
     </item>
     <item cbc:type="story" cbc:deptid="2.633" cbc:syndicate="true">
-      <title><![CDATA[Europe, Mideast push back against Trump refugee ban amid travel confusion]]></title>
-            <link>http://www.cbc.ca/news/world/trump-executive-order-world-reaction-1.3957262?cmp=rss</link>
-      <pubDate>Sun, 29 Jan 2017 08:53:57 EST</pubDate>
-                        <author>CBC</author>
+      <title><![CDATA[Malaysia expels North Korean envoy after Kim Jong-nam murder]]></title>
+            <link>http://www.cbc.ca/news/world/north-korea-malaysia-murder-envoy-1.4010376?cmp=rss</link>
+      <pubDate>Sat, 4 Mar 2017 16:44:04 EST</pubDate>
+                        <author>Reuters</author>
       							      <category>News/World</category>
       <description>
         <![CDATA[
-                        <img src='https://i.cbc.ca/1.3957400.1485713130!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_460/94254772.jpg' alt='94254772' width='460' title='NEW YORK, NY - JANUARY 28: Protestors rally during a demonstration against the new immigration ban issued by President Donald Trump at John F. Kennedy International Airport on January 28, 2017 in New York City. President Trump signed the controversial executive order that halted refugees and residents from predominantly Muslim countries from entering the United States. (Photo by Stephanie Keith/Getty Images)' height='259' />                <p>U.S. President Donald Trump's travel ban on citizens from seven Muslim-majority countries has sparked anger in regions where travellers or refugees are affected, and objections from the leaders of some European nations.</p>
-        ]]>
-      </description>
-    </item>
-    <item cbc:type="story" cbc:deptid="2.635" cbc:syndicate="true">
-      <title><![CDATA[Iris Mittenaere of France crowned Miss Universe]]></title>
-            <link>http://www.cbc.ca/news/entertainment/miss-universe-2017-manila-philippines-1.3957737?cmp=rss</link>
-      <pubDate>Sun, 29 Jan 2017 23:16:12 EST</pubDate>
-                        <author>The Associated Press</author>
-      							      <category>News/Entertainment</category>
-      <description>
-        <![CDATA[
-                        <img src='https://i.cbc.ca/1.3957778.1485753131!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_460/philippines-missuniverse-iris-mittenaere.jpg' alt='PHILIPPINES-MISSUNIVERSE/Iris Mittenaere' width='460' title='Miss France Iris Mittenaere poses after being declared winner in the 65th Miss Universe beauty pageant at the Mall of Asia Arena on Sunday near Manila, Philippines.' height='259' />                <p>Iris Mittenaere, a 23-year-old dental student from the small town of Lille in Northern France won the Miss Universe crown Monday in the annual pageant held this year in the Philippines.</p>
-        ]]>
-      </description>
-    </item>
-    <item cbc:type="story" cbc:deptid="2.636" cbc:syndicate="true">
-      <title><![CDATA[Transfer of banking records of Canadian residents to U.S. taxman doubles]]></title>
-            <link>http://www.cbc.ca/news/politics/taxes-internal-revenue-service-fatca-united-states-1.3954789?cmp=rss</link>
-      <pubDate>Sun, 29 Jan 2017 05:00:00 EST</pubDate>
-                        <author>Elizabeth Thompson</author>
-      							      <category>News/Politics</category>
-      <description>
-        <![CDATA[
-                        <img src='https://i.cbc.ca/1.1179165.1378701588!/httpImage/image.jpg_gen/derivatives/16x9_460/li-irs-fatca-620-is5794815.jpg' alt='li-irs-fatca-620-is5794815' width='460' title='Under U.S. law, American citizens need to file tax returns even if they haven&#39;t lived in the U.S. for decades, let alone earned any money in their native land. ' height='259' />                <p>The bank records of more than 315,000 Canadian residents were turned over to the U.S. Internal Revenue Service last year under a controversial information sharing deal — double the number transferred in the deal's first year, CBC News has learned.</p>
-        ]]>
-      </description>
-    </item>
-    <item cbc:type="story" cbc:deptid="2.662" cbc:syndicate="true">
-      <title><![CDATA['Anyone can be a victim': Canadian high school girls being lured into sex trade]]></title>
-            <link>http://www.cbc.ca/news/canada/toronto/human-sex-trafficking-domestic-1.3956214?cmp=rss</link>
-      <pubDate>Sun, 29 Jan 2017 05:00:40 EST</pubDate>
-                        <author>Seema Marwaha</author>
-      										      <category>News/Canada/Toronto</category>
-      <description>
-        <![CDATA[
-                        <img src='https://i.cbc.ca/1.3799845.1476197500!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_460/2799677.jpg' alt='2799677' width='460' title='An Alberta group that works to combat human trafficking says reported cases have increased dramatically.' height='259' />                <p>Most stories about human trafficking that make it into the headlines in Canada involve women from other countries being brought here and forced into sex work, but those who work with trafficking victims in this country say the majority are, in fact, Canadian-born girls, some as young as 13.</p>
-        ]]>
-      </description>
-    </item>
-    <item cbc:type="story" cbc:deptid="2.637" cbc:syndicate="true">
-      <title><![CDATA[Got a gripe about your cellphone service? Chances are you don't know your rights]]></title>
-            <link>http://www.cbc.ca/news/business/cellphone-wireless-complaint-ccts-1.3955921?cmp=rss</link>
-      <pubDate>Sun, 29 Jan 2017 05:00:00 EST</pubDate>
-                        <author>Sophia Harris</author>
-      							      <category>News/Business</category>
-      <description>
-        <![CDATA[
-                        <img src='https://i.cbc.ca/1.3955991.1485552671!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_460/dann-verner-cellphone-ccts-wireless.jpg' alt='Dann Verner cellphone CCTS wireless' width='460' title='Dann Verner in Toronto believes the telecom providers don&#39;t want you to know that you have recourse for unresolved telecom complaints. ' height='259' />                <p>Most people don't know that they can turn to a consumer body that takes on unresolved telecom complaints, says a recent survey. The organization meant to handle the complaints says telecom providers aren't doing their part to promote it.</p>
-        ]]>
-      </description>
-    </item>
-    <item cbc:type="story" cbc:deptid="2.642" cbc:syndicate="true">
-      <title><![CDATA[Pipeline leaks due to human error an increasing problem, says NEB]]></title>
-            <link>http://www.cbc.ca/news/canada/calgary/human-error-pipeline-spill-neb-1.3957370?cmp=rss</link>
-      <pubDate>Sun, 29 Jan 2017 12:31:28 EST</pubDate>
-                        <author>Ian Bickis</author>
-      										      <category>News/Canada/Calgary</category>
-      <description>
-        <![CDATA[
-                        <img src='https://i.cbc.ca/1.2254587.1382980971!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_460/pipeline-spill.jpg' alt='Pipeline spill' width='460' title='A boom stretches out to contain a pipeline leak on the Gleniffer reservoir near Innisfail, Alta. in 2012.' height='259' />                <p>Human error — whether it's burying a pipeline too shallow or not fastening bolts tight enough— is increasingly a factor contributing to pipeline leaks, federal data suggests.</p>
+                        <img src='https://i.cbc.ca/1.3997189.1488293129!/cpImage/httpImage/image.jpg_gen/derivatives/16x9_460/malaysia-north-korea.jpg' alt='Malaysia North Korea' width='460' title='FILE - In this May 4, 2001, file photo, a man believed to be Kim Jong Nam, the eldest son of then North Korean leader Kim Jong Il, looks at a battery of photographers as he exits a police van to board a plane to Beijing at Narita international airport in Narita, northeast of Tokyo. Police in Malaysia say the half brother of North Korea&#39;s leader who was killed in a Kuala Lumpur airport more than a week ago had a nerve agent on his eye and his face. A statement Friday, Feb. 24, 2017 from the inspector general of police said that a preliminary analysis from the Chemistry Department of Malaysia identified the agent at "VX NERVE AGENT." ' height='259' />                <p>Malaysia said on Saturday it was expelling the North Korean ambassador, escalating a diplomatic row between the two countries over the murder of the estranged half-brother of North Korean Leader Kim Jong-un.</p>
         ]]>
       </description>
     </item>

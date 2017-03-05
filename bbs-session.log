@@ -1,553 +1,1413 @@
 One noip2 process is already active,
 and the multiple instance flag (-M) is not set.
 ...waiting for new connection
-One noip2 process is already active,
-and the multiple instance flag (-M) is not set.
-...waiting for new connection
-ESTAB      0      0           192.168.1.165:6400          64.114.84.64:39342    users:(("tcpser",27978,15))
-Tue Jan 24 01:55:05 UTC 2017
+bbs-session.sh: line 123: 15538 Terminated              nohup tcpser -d $DEVICE -s 2400 -tsS -l 7 -i "s0=1&s2=43&e0q0v0&c0x1&k0&w" -a seqs/bbs-welcome.seq -T seqs/bbs-timeout.seq -B seqs/bbs-busy.seq -p $PORT -I > $FILENAME
+ESTAB      0      0           192.168.1.165:6400       207.194.129.162:51446    users:(("tcpser",15585,15))
+Mon Feb 13 20:33:37 UTC 2017
 ...checkmark sent
-Tue Jan 24 01:55:24 UTC 2017
+Mon Feb 13 20:33:58 UTC 2017
 ...waiting for new connection
-ESTAB      0      0           192.168.1.165:6400        67.168.132.127:18772    users:(("tcpser",27978,15))
-Tue Jan 24 03:33:00 UTC 2017
-...checkmark sent
-Tue Jan 24 03:35:42 UTC 2017
-...waiting for new connection
-ESTAB      0      0           192.168.1.165:6400          97.91.206.27:13202    users:(("tcpser",27978,15))
-Tue Jan 24 06:52:20 UTC 2017
-...checkmark sent
-Tue Jan 24 06:59:25 UTC 2017
-...waiting for new connection
-One noip2 process is already active,
-and the multiple instance flag (-M) is not set.
-...waiting for new connection
-ESTAB      0      0           192.168.1.165:6400         192.30.34.213:47019    users:(("tcpser",25245,15))
-Tue Jan 24 08:01:23 UTC 2017
-...checkmark sent
-Tue Jan 24 08:02:48 UTC 2017
-...waiting for new connection
-ESTAB      0      302         192.168.1.165:6400         123.2.100.158:18083    users:(("tcpser",25245,15))
-Tue Jan 24 08:27:36 UTC 2017
-...checkmark sent
-Tue Jan 24 08:32:39 UTC 2017
-...waiting for new connection
-ESTAB      0      0           192.168.1.165:6400          64.114.84.64:40822    users:(("tcpser",25245,15))
-Tue Jan 24 16:08:05 UTC 2017
-...checkmark sent
-Tue Jan 24 16:09:22 UTC 2017
-...waiting for new connection
-ESTAB      0      0           192.168.1.165:6400           76.105.39.3:39141    users:(("tcpser",25245,15))
-Tue Jan 24 18:18:19 UTC 2017
-...checkmark sent
-Tue Jan 24 18:18:56 UTC 2017
-...waiting for new connection
-ESTAB      0      0           192.168.1.165:6400         142.104.60.49:54335    users:(("tcpser",25245,15))
-Tue Jan 24 18:22:33 UTC 2017
-...checkmark sent
-Tue Jan 24 18:31:29 UTC 2017
-...waiting for new connection
-ESTAB      0      0           192.168.1.165:6400         142.104.60.49:54786    users:(("tcpser",25245,15))
-Tue Jan 24 19:13:04 UTC 2017
-...checkmark sent
-Tue Jan 24 19:19:31 UTC 2017
-...waiting for new connection
-ESTAB      0      0           192.168.1.165:6400         142.104.60.49:55095    users:(("tcpser",25245,15))
-Tue Jan 24 19:46:09 UTC 2017
-...checkmark sent
-Tue Jan 24 19:46:29 UTC 2017
-...waiting for new connection
-ESTAB      0      0           192.168.1.165:6400         142.104.60.49:55099    users:(("tcpser",25245,15))
-Tue Jan 24 19:46:32 UTC 2017
-...checkmark sent
-Tue Jan 24 19:47:10 UTC 2017
-...waiting for new connection
-ESTAB      0      0           192.168.1.165:6400         142.104.60.49:55118    users:(("tcpser",25245,15))
-Tue Jan 24 19:50:02 UTC 2017
-...checkmark sent
-Tue Jan 24 19:50:31 UTC 2017
-...waiting for new connection
-ESTAB      0      0           192.168.1.165:6400         142.104.60.49:55119    users:(("tcpser",25245,15))
-Tue Jan 24 19:50:34 UTC 2017
-...checkmark sent
-Tue Jan 24 19:51:06 UTC 2017
-...waiting for new connection
-ESTAB      0      423         192.168.1.165:6400         81.44.185.170:14295    users:(("tcpser",25245,15))
-Tue Jan 24 20:25:47 UTC 2017
-...checkmark sent
-Tue Jan 24 20:34:41 UTC 2017
-...waiting for new connection
-ESTAB      0      0           192.168.1.165:6400         142.104.60.49:56433    users:(("tcpser",25245,15))
-Tue Jan 24 20:49:29 UTC 2017
-...checkmark sent
-Tue Jan 24 20:51:40 UTC 2017
-...waiting for new connection
-ESTAB      0      0           192.168.1.165:6400         142.104.60.49:56619    users:(("tcpser",25245,15))
-Tue Jan 24 20:51:44 UTC 2017
-...checkmark sent
-Tue Jan 24 20:53:24 UTC 2017
-...waiting for new connection
-ESTAB      0      438         192.168.1.165:6400         142.104.60.49:56711    users:(("tcpser",25245,15))
-Tue Jan 24 20:53:53 UTC 2017
-...checkmark sent
-Tue Jan 24 20:59:38 UTC 2017
-...waiting for new connection
-ESTAB      0      0           192.168.1.165:6400           76.105.39.3:39142    users:(("tcpser",25245,15))
-Tue Jan 24 22:49:41 UTC 2017
-...checkmark sent
-Tue Jan 24 22:50:31 UTC 2017
-...waiting for new connection
-ESTAB      0      0           192.168.1.165:6400           76.105.39.3:39143    users:(("tcpser",25245,15))
-Tue Jan 24 22:56:48 UTC 2017
-...checkmark sent
-Tue Jan 24 22:57:02 UTC 2017
-...waiting for new connection
-ESTAB      0      0           192.168.1.165:6400           76.105.39.3:39144    users:(("tcpser",25245,15))
-Tue Jan 24 22:57:17 UTC 2017
-...checkmark sent
-Tue Jan 24 22:57:25 UTC 2017
-...waiting for new connection
-One noip2 process is already active,
-and the multiple instance flag (-M) is not set.
-...waiting for new connection
-ESTAB      0      0           192.168.1.165:6400         142.104.60.49:34808    users:(("tcpser",29459,15))
-Tue Jan 24 22:58:39 UTC 2017
-...checkmark sent
-Tue Jan 24 22:58:47 UTC 2017
-...waiting for new connection
-ESTAB      0      312         192.168.1.165:6400           76.105.39.3:39146    users:(("tcpser",29459,15))
-Tue Jan 24 23:01:33 UTC 2017
-...checkmark sent
-Tue Jan 24 23:02:03 UTC 2017
-...waiting for new connection
-One noip2 process is already active,
-and the multiple instance flag (-M) is not set.
-...waiting for new connection
-ESTAB      0      0           192.168.1.165:6400           76.105.39.3:59220    users:(("tcpser",6356,15))
-Tue Jan 24 23:05:36 UTC 2017
-...checkmark sent
-Tue Jan 24 23:06:04 UTC 2017
-...waiting for new connection
-ESTAB      0      438         192.168.1.165:6400         142.104.60.49:35130    users:(("tcpser",6356,15))
-Tue Jan 24 23:06:24 UTC 2017
-...checkmark sent
-Tue Jan 24 23:07:54 UTC 2017
-...waiting for new connection
-ESTAB      0      0           192.168.1.165:6400         142.104.60.49:35141    users:(("tcpser",6356,15))
-Tue Jan 24 23:08:57 UTC 2017
-...checkmark sent
-Tue Jan 24 23:09:33 UTC 2017
-...waiting for new connection
-ESTAB      0      402         192.168.1.165:6400           76.105.39.3:64718    users:(("tcpser",6356,15))
-Tue Jan 24 23:22:28 UTC 2017
-...checkmark sent
-Tue Jan 24 23:30:11 UTC 2017
-...waiting for new connection
-ESTAB      0      0           192.168.1.165:6400           76.105.39.3:65110    users:(("tcpser",6356,15))
-Tue Jan 24 23:30:30 UTC 2017
-...checkmark sent
-Tue Jan 24 23:38:11 UTC 2017
-...waiting for new connection
-ESTAB      0      0           192.168.1.165:6400         142.104.60.49:35982    users:(("tcpser",6356,15))
-Tue Jan 24 23:42:43 UTC 2017
-...checkmark sent
-Tue Jan 24 23:51:18 UTC 2017
-...waiting for new connection
-ESTAB      0      0           192.168.1.165:6400        67.168.132.127:1786     users:(("tcpser",6356,15))
-Wed Jan 25 01:11:31 UTC 2017
+ESTAB      0      564         192.168.1.165:6400         108.12.176.42:2267     users:(("tcpser",15585,15))
+Mon Feb 13 20:42:21 UTC 2017
 ...checkmark sent
 ...protocol change
-Wed Jan 25 01:26:17 UTC 2017
+Mon Feb 13 20:45:27 UTC 2017
 ...waiting for new connection
-ESTAB      0      0           192.168.1.165:6400          64.114.84.64:40974    users:(("tcpser",6356,15))
-Wed Jan 25 04:41:24 UTC 2017
+ESTAB      0      0           192.168.1.165:6400        67.168.132.127:19349    users:(("tcpser",15585,15))
+Tue Feb 14 03:55:31 UTC 2017
 ...checkmark sent
-Wed Jan 25 04:42:40 UTC 2017
+Tue Feb 14 04:01:59 UTC 2017
 ...waiting for new connection
-ESTAB      0      0           192.168.1.165:6400          64.114.84.64:41238    users:(("tcpser",6356,15))
-Wed Jan 25 06:37:25 UTC 2017
+ESTAB      0      309         192.168.1.165:6400          97.91.206.27:31949    users:(("tcpser",15585,15))
+Tue Feb 14 06:28:20 UTC 2017
 ...checkmark sent
-Wed Jan 25 06:37:56 UTC 2017
+Tue Feb 14 06:37:35 UTC 2017
+...waiting for new connection
+   users:(("tcpser",15585,15))
+Tue Feb 14 06:28:20 UTC 2017
+...checkmark sent
+Tue Feb 14 06:37:35 UTC 2017
 ...waiting for new connection
 One noip2 process is already active,
 and the multiple instance flag (-M) is not set.
 ...waiting for new connection
-ESTAB      0      0           192.168.1.165:6400          64.114.84.64:41260    users:(("tcpser",4083,15))
-Wed Jan 25 07:02:38 UTC 2017
+ESTAB      0      657         192.168.1.165:6400          83.52.45.149:49467    users:(("tcpser",11828,15))
+Tue Feb 14 17:36:25 UTC 2017
 ...checkmark sent
-Wed Jan 25 07:03:06 UTC 2017
+Tue Feb 14 17:37:00 UTC 2017
 ...waiting for new connection
-ESTAB      0      0           192.168.1.165:6400           76.105.39.3:64199    users:(("tcpser",4083,15))
-Wed Jan 25 16:07:22 UTC 2017
+ESTAB      0      0           192.168.1.165:6400         142.104.60.49:36107    users:(("tcpser",11828,15))
+Tue Feb 14 18:14:04 UTC 2017
 ...checkmark sent
-Wed Jan 25 16:08:06 UTC 2017
+Tue Feb 14 18:14:35 UTC 2017
 ...waiting for new connection
-ESTAB      0      0           192.168.1.165:6400          64.114.84.64:41430    users:(("tcpser",4083,15))
-Wed Jan 25 16:55:36 UTC 2017
-Wed Jan 25 16:55:46 UTC 2017
-...waiting for new connection
-ESTAB      0      0           192.168.1.165:6400          64.114.84.64:41431    users:(("tcpser",4083,15))
-Wed Jan 25 16:55:52 UTC 2017
+ESTAB      0      0           192.168.1.165:6400          172.88.44.59:58290    users:(("tcpser",11828,15))
+Tue Feb 14 19:15:17 UTC 2017
 ...checkmark sent
-Wed Jan 25 16:56:20 UTC 2017
+Tue Feb 14 19:17:26 UTC 2017
 ...waiting for new connection
-ESTAB      0      0           192.168.1.165:6400         142.104.60.49:38979    users:(("tcpser",4083,15))
-Wed Jan 25 18:07:02 UTC 2017
-...checkmark sent
-Wed Jan 25 18:15:53 UTC 2017
-...waiting for new connection
-ESTAB      0      0           192.168.1.165:6400        142.104.63.142:6400     users:(("tcpser",4083,15))
-Wed Jan 25 20:09:57 UTC 2017
-...checkmark sent
-Wed Jan 25 20:13:27 UTC 2017
-...waiting for new connection
-ESTAB      0      0           192.168.1.165:6400         142.104.60.49:41474    users:(("tcpser",4083,15))
-Wed Jan 25 20:50:30 UTC 2017
-...checkmark sent
-Wed Jan 25 20:51:10 UTC 2017
-...waiting for new connection
-ESTAB      0      0           192.168.1.165:6400           76.105.39.3:59227    users:(("tcpser",4083,15))
-Wed Jan 25 20:58:13 UTC 2017
-...checkmark sent
-Wed Jan 25 20:59:11 UTC 2017
-...waiting for new connection
-ESTAB      0      309         192.168.1.165:6400         76.69.118.192:3748     users:(("tcpser",4083,15))
-Wed Jan 25 21:12:18 UTC 2017
-...checkmark sent
-Wed Jan 25 21:17:34 UTC 2017
-...waiting for new connection
-ESTAB      0      10          192.168.1.165:6400         76.69.118.192:12724    users:(("tcpser",4083,15))
-Wed Jan 25 21:18:14 UTC 2017
-...checkmark sent
-Wed Jan 25 21:18:49 UTC 2017
-...waiting for new connection
-ESTAB      0      0           192.168.1.165:6400         76.69.118.192:10726    users:(("tcpser",4083,15))
-Wed Jan 25 21:19:16 UTC 2017
-...checkmark sent
-Wed Jan 25 21:23:40 UTC 2017
-...waiting for new connection
-ESTAB      0      16          192.168.1.165:6400         76.69.118.192:32504    users:(("tcpser",4083,15))
-Wed Jan 25 21:23:54 UTC 2017
-...checkmark sent
-Wed Jan 25 21:26:17 UTC 2017
-...waiting for new connection
-ESTAB      0      0           192.168.1.165:6400         76.69.118.192:28786    users:(("tcpser",4083,15))
-Wed Jan 25 21:26:36 UTC 2017
-...checkmark sent
-Wed Jan 25 21:37:55 UTC 2017
-...waiting for new connection
-ESTAB      0      0           192.168.1.165:6400         142.104.60.49:43133    users:(("tcpser",4083,15))
-Wed Jan 25 21:42:51 UTC 2017
-...checkmark sent
-Wed Jan 25 21:46:17 UTC 2017
-...waiting for new connection
-ESTAB      0      0           192.168.1.165:6400          64.114.84.64:41540    users:(("tcpser",4083,15))
-Thu Jan 26 00:26:03 UTC 2017
-...checkmark sent
-Thu Jan 26 00:26:22 UTC 2017
-...waiting for new connection
-ESTAB      0      0               127.0.0.1:6400             127.0.0.1:52941    users:(("tcpser",4083,15))
-Thu Jan 26 00:29:14 UTC 2017
-...checkmark sent
-Thu Jan 26 00:30:30 UTC 2017
-...waiting for new connection
-ESTAB      0      0           192.168.1.165:6400          70.78.129.97:63918    users:(("tcpser",4083,15))
-Thu Jan 26 00:34:15 UTC 2017
-...checkmark sent
-Thu Jan 26 00:36:46 UTC 2017
-...waiting for new connection
-ESTAB      0      0               127.0.0.1:6400             127.0.0.1:52956    users:(("tcpser",4083,15))
-Thu Jan 26 01:14:02 UTC 2017
-...checkmark sent
-Thu Jan 26 01:14:30 UTC 2017
-...waiting for new connection
-ESTAB      0      0               127.0.0.1:6400             127.0.0.1:53089    users:(("tcpser",4083,15))
-Thu Jan 26 05:50:41 UTC 2017
-...checkmark sent
-Thu Jan 26 05:51:26 UTC 2017
-...waiting for new connection
-ESTAB      0      0               127.0.0.1:6400             127.0.0.1:53093    users:(("tcpser",4083,15))
-Thu Jan 26 05:51:36 UTC 2017
-...checkmark sent
-Thu Jan 26 05:52:04 UTC 2017
-...waiting for new connection
-ESTAB      0      0           192.168.1.165:6400          64.114.84.64:41726    users:(("tcpser",4083,15))
-Thu Jan 26 05:52:07 UTC 2017
-...checkmark sent
-Thu Jan 26 05:54:25 UTC 2017
-...waiting for new connection
-One noip2 process is already active,
-and the multiple instance flag (-M) is not set.
-...waiting for new connection
-One noip2 process is already active,
-and the multiple instance flag (-M) is not set.
-...waiting for new connection
-ESTAB      0      0           192.168.1.165:6400           76.105.39.3:59228    users:(("tcpser",10535,15))
-Thu Jan 26 16:19:51 UTC 2017
-...checkmark sent
-Thu Jan 26 16:21:05 UTC 2017
-...waiting for new connection
-ESTAB      0      0           192.168.1.165:6400          64.114.84.64:12850    users:(("tcpser",10535,15))
-Thu Jan 26 16:22:16 UTC 2017
-...checkmark sent
-Thu Jan 26 16:25:19 UTC 2017
-...waiting for new connection
-ESTAB      0      0           192.168.1.165:6400          64.114.84.64:41936    users:(("tcpser",10535,15))
-Thu Jan 26 16:25:55 UTC 2017
-...checkmark sent
-Thu Jan 26 16:28:46 UTC 2017
-...waiting for new connection
-ESTAB      0      0           192.168.1.165:6400          64.114.84.64:41938    users:(("tcpser",10535,15))
-Thu Jan 26 16:28:56 UTC 2017
-...checkmark sent
-Thu Jan 26 16:30:25 UTC 2017
-...waiting for new connection
-ESTAB      0      0           192.168.1.165:6400         142.104.60.49:48439    users:(("tcpser",10535,15))
-Thu Jan 26 18:04:58 UTC 2017
-...checkmark sent
-Thu Jan 26 18:12:33 UTC 2017
-...waiting for new connection
-ESTAB      0      0           192.168.1.165:6400         142.104.60.49:51409    users:(("tcpser",10535,15))
-Thu Jan 26 19:34:22 UTC 2017
-...checkmark sent
-Thu Jan 26 19:35:22 UTC 2017
-...waiting for new connection
-ESTAB      0      0           192.168.1.165:6400         142.104.60.49:54510    users:(("tcpser",10535,15))
-Thu Jan 26 21:06:16 UTC 2017
-...checkmark sent
-Thu Jan 26 21:06:33 UTC 2017
-...waiting for new connection
-ESTAB      0      0           192.168.1.165:6400         142.104.60.49:56865    users:(("tcpser",10535,15))
-Thu Jan 26 23:03:52 UTC 2017
-...checkmark sent
-Thu Jan 26 23:04:22 UTC 2017
-...waiting for new connection
-ESTAB      0      0           192.168.1.165:6400           76.105.39.3:52829    users:(("tcpser",10535,15))
-Thu Jan 26 23:21:07 UTC 2017
-...checkmark sent
-Thu Jan 26 23:29:00 UTC 2017
-...waiting for new connection
-ESTAB      0      0           192.168.1.165:6400         142.104.60.49:57013    users:(("tcpser",10535,15))
-Thu Jan 26 23:34:56 UTC 2017
-...checkmark sent
-Thu Jan 26 23:38:24 UTC 2017
-...waiting for new connection
-ESTAB      0      0           192.168.1.165:6400        108.172.200.88:20109    users:(("tcpser",10535,15))
-Fri Jan 27 01:43:59 UTC 2017
+ESTAB      0      0           192.168.1.165:6400         142.104.60.49:37341    users:(("tcpser",11828,15))
+Tue Feb 14 19:25:27 UTC 2017
 ...checkmark sent
 ...protocol change
-Fri Jan 27 02:06:17 UTC 2017
+Tue Feb 14 19:29:21 UTC 2017
 ...waiting for new connection
-ESTAB      0      0           192.168.1.165:6400           76.105.39.3:59231    users:(("tcpser",10535,15))
-Fri Jan 27 03:28:34 UTC 2017
+ESTAB      0      0           192.168.1.165:6400         81.82.238.188:11295    users:(("tcpser",11828,15))
+Tue Feb 14 19:33:56 UTC 2017
 ...checkmark sent
-Fri Jan 27 03:29:18 UTC 2017
+Tue Feb 14 19:34:05 UTC 2017
 ...waiting for new connection
-One noip2 process is already active,
-and the multiple instance flag (-M) is not set.
-...waiting for new connection
-ESTAB      0      0           192.168.1.165:6400          64.114.84.64:42125    users:(("tcpser",19635,15))
-Fri Jan 27 07:46:11 UTC 2017
+ESTAB      0      0           192.168.1.165:6400         81.82.238.188:30487    users:(("tcpser",11828,15))
+Tue Feb 14 19:34:17 UTC 2017
 ...checkmark sent
-Fri Jan 27 07:46:39 UTC 2017
+Tue Feb 14 19:40:31 UTC 2017
 ...waiting for new connection
-ESTAB      0      0           192.168.1.165:6400          64.114.84.64:42126    users:(("tcpser",19635,15))
-Fri Jan 27 07:48:59 UTC 2017
-...checkmark sent
-Fri Jan 27 07:49:24 UTC 2017
-...waiting for new connection
-ESTAB      0      0           192.168.1.165:6400          64.114.84.64:12797    users:(("tcpser",19635,15))
-Fri Jan 27 09:25:46 UTC 2017
-...checkmark sent
-Fri Jan 27 09:29:21 UTC 2017
-...waiting for new connection
-ESTAB      0      0           192.168.1.165:6400         142.104.60.49:59246    users:(("tcpser",19635,15))
-Fri Jan 27 17:57:54 UTC 2017
-...checkmark sent
-Fri Jan 27 17:58:43 UTC 2017
-...waiting for new connection
-ESTAB      0      0           192.168.1.165:6400         142.104.60.49:41395    users:(("tcpser",19635,15))
-Fri Jan 27 22:18:30 UTC 2017
-...checkmark sent
-Fri Jan 27 22:20:37 UTC 2017
-...waiting for new connection
-...waiting for new connection
-ESTAB      0      0           192.168.1.165:6400          64.114.84.64:35547    users:(("tcpser",2472,15))
-Sat Jan 28 01:12:00 UTC 2017
-...checkmark sent
-Sat Jan 28 01:13:16 UTC 2017
-...waiting for new connection
-ESTAB      0      0           192.168.1.165:6400        67.168.132.127:18871    users:(("tcpser",2472,15))
-Sat Jan 28 01:44:09 UTC 2017
-...checkmark sent
-Sat Jan 28 01:49:00 UTC 2017
-...waiting for new connection
-One noip2 process is already active,
-and the multiple instance flag (-M) is not set.
-...waiting for new connection
-ESTAB      0      0           192.168.1.165:6400          64.114.84.64:35628    users:(("tcpser",18988,15))
-Sat Jan 28 07:37:13 UTC 2017
-...checkmark sent
-Sat Jan 28 07:40:18 UTC 2017
-...waiting for new connection
-ESTAB      0      0           192.168.1.165:6400          64.114.84.64:35746    users:(("tcpser",18988,15))
-Sat Jan 28 10:16:35 UTC 2017
-...checkmark sent
-Sat Jan 28 10:17:02 UTC 2017
-...waiting for new connection
-ESTAB      0      0           192.168.1.165:6400        207.81.148.173:60744    users:(("tcpser",18988,15))
-Sat Jan 28 17:33:36 UTC 2017
-...checkmark sent
-Sat Jan 28 17:33:54 UTC 2017
-...waiting for new connection
-ESTAB      0      309         192.168.1.165:6400        184.145.116.11:31467    users:(("tcpser",18988,15))
-Sat Jan 28 17:39:07 UTC 2017
-...checkmark sent
-Sat Jan 28 17:39:32 UTC 2017
-...waiting for new connection
-ESTAB      0      0           192.168.1.165:6400        207.81.148.173:60778    users:(("tcpser",18988,15))
-Sat Jan 28 20:17:47 UTC 2017
-...checkmark sent
-Sat Jan 28 20:18:11 UTC 2017
-...waiting for new connection
-ESTAB      0      0           192.168.1.165:6400        207.81.148.173:60826    users:(("tcpser",18988,15))
-Sun Jan 29 00:10:15 UTC 2017
-...checkmark sent
-Sun Jan 29 00:10:35 UTC 2017
-...waiting for new connection
-ESTAB      0      678         192.168.1.165:6400          72.45.14.242:9012     users:(("tcpser",18988,15))
-Sun Jan 29 00:50:40 UTC 2017
+ESTAB      0      0           192.168.1.165:6400         142.104.60.49:38349    users:(("tcpser",11828,15))
+Tue Feb 14 19:40:37 UTC 2017
 ...checkmark sent
 ...protocol change
-Sun Jan 29 01:02:09 UTC 2017
+Tue Feb 14 19:43:22 UTC 2017
 ...waiting for new connection
-ESTAB      0      0           192.168.1.165:6400           76.105.39.3:50535    users:(("tcpser",18988,15))
-Sun Jan 29 04:50:34 UTC 2017
+ESTAB      0      0           192.168.1.165:6400         142.104.60.49:38471    users:(("tcpser",11828,15))
+Tue Feb 14 19:43:27 UTC 2017
 ...checkmark sent
-Sun Jan 29 04:51:21 UTC 2017
+Tue Feb 14 19:44:26 UTC 2017
 ...waiting for new connection
-ESTAB      0      0           192.168.1.165:6400           76.105.39.3:50536    users:(("tcpser",18988,15))
-Sun Jan 29 04:52:15 UTC 2017
-Sun Jan 29 04:52:25 UTC 2017
-...waiting for new connection
-ESTAB      0      0           192.168.1.165:6400           76.105.39.3:50537    users:(("tcpser",18988,15))
-Sun Jan 29 04:53:18 UTC 2017
+ESTAB      0      657         192.168.1.165:6400        76.121.180.163:11638    users:(("tcpser",11828,15))
+Wed Feb 15 01:00:27 UTC 2017
 ...checkmark sent
-Sun Jan 29 04:53:35 UTC 2017
+Wed Feb 15 01:10:29 UTC 2017
 ...waiting for new connection
-ESTAB      0      0           192.168.1.165:6400          97.91.206.27:17886    users:(("tcpser",18988,15))
-Sun Jan 29 07:17:36 UTC 2017
+ESTAB      0      0           192.168.1.165:6400       208.181.121.100:23492    users:(("tcpser",11828,15))
+Wed Feb 15 08:26:28 UTC 2017
 ...checkmark sent
-Sun Jan 29 07:25:47 UTC 2017
+Wed Feb 15 08:37:28 UTC 2017
+...waiting for new connection
+ESTAB      0      678         192.168.1.165:6400           76.105.39.3:26903    users:(("tcpser",11828,15))
+Wed Feb 15 16:07:39 UTC 2017
+Wed Feb 15 16:07:44 UTC 2017
+...waiting for new connection
+ESTAB      0      432         192.168.1.165:6400           76.105.39.3:10488    users:(("tcpser",11828,15))
+Wed Feb 15 16:08:00 UTC 2017
+...checkmark sent
+Wed Feb 15 16:19:24 UTC 2017
 ...waiting for new connection
 One noip2 process is already active,
 and the multiple instance flag (-M) is not set.
 ...waiting for new connection
-ESTAB      0      0           192.168.1.165:6400           74.5.22.108:14792    users:(("tcpser",30991,15))
-Sun Jan 29 17:12:30 UTC 2017
+ESTAB      0      0           192.168.1.165:6400         142.104.60.49:42272    users:(("tcpser",28139,15))
+Wed Feb 15 18:09:46 UTC 2017
+...checkmark sent
+Wed Feb 15 18:18:52 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400         142.104.60.49:42852    users:(("tcpser",28139,15))
+Wed Feb 15 18:40:54 UTC 2017
+...checkmark sent
+Wed Feb 15 18:47:24 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400         142.104.60.49:56659    users:(("tcpser",28139,15))
+Wed Feb 15 18:53:05 UTC 2017
+...checkmark sent
+Wed Feb 15 18:54:47 UTC 2017
+...waiting for new connection
+ESTAB      0      678         192.168.1.165:6400         50.92.102.199:25605    users:(("tcpser",28139,15))
+Thu Feb 16 01:54:58 UTC 2017
 ...checkmark sent
 ...protocol change
-Sun Jan 29 17:23:36 UTC 2017
+Thu Feb 16 02:36:44 UTC 2017
 ...waiting for new connection
-ESTAB      0      0           192.168.1.165:6400        162.253.176.32:33530    users:(("tcpser",30991,15))
-Sun Jan 29 18:14:41 UTC 2017
+ESTAB      0      1039        192.168.1.165:6400        104.175.17.237:20649    users:(("tcpser",28139,15))
+Thu Feb 16 03:51:29 UTC 2017
 ...checkmark sent
-Sun Jan 29 18:15:12 UTC 2017
+Thu Feb 16 03:51:37 UTC 2017
 ...waiting for new connection
-ESTAB      0      678         192.168.1.165:6400          136.56.8.181:49770    users:(("tcpser",30991,15))
-Sun Jan 29 18:16:09 UTC 2017
-Sun Jan 29 18:17:10 UTC 2017
-...waiting for new connection
-ESTAB      0      0           192.168.1.165:6400          136.56.8.181:49790    users:(("tcpser",30991,15))
-Sun Jan 29 18:17:27 UTC 2017
-...checkmark sent
-Sun Jan 29 18:20:42 UTC 2017
-...waiting for new connection
-ESTAB      0      0           192.168.1.165:6400          136.56.8.181:49810    users:(("tcpser",30991,15))
-Sun Jan 29 18:51:57 UTC 2017
-...checkmark sent
-Sun Jan 29 18:58:36 UTC 2017
-...waiting for new connection
-ESTAB      0      0           192.168.1.165:6400          65.110.16.30:56643    users:(("tcpser",30991,15))
-Sun Jan 29 19:05:18 UTC 2017
-...checkmark sent
-Sun Jan 29 19:06:29 UTC 2017
-...waiting for new connection
-ESTAB      0      0           192.168.1.165:6400          136.56.8.181:49816    users:(("tcpser",30991,15))
-Sun Jan 29 19:06:52 UTC 2017
-...checkmark sent
-Sun Jan 29 19:07:27 UTC 2017
-...waiting for new connection
-ESTAB      0      0           192.168.1.165:6400          136.56.8.181:49822    users:(("tcpser",30991,15))
-Sun Jan 29 19:07:49 UTC 2017
-...checkmark sent
-Sun Jan 29 19:08:27 UTC 2017
-...waiting for new connection
-ESTAB      0      0           192.168.1.165:6400          136.56.8.181:49824    users:(("tcpser",30991,15))
-Sun Jan 29 19:09:12 UTC 2017
-Sun Jan 29 19:09:39 UTC 2017
-...waiting for new connection
-ESTAB      0      0           192.168.1.165:6400          136.56.8.181:49826    users:(("tcpser",30991,15))
-Sun Jan 29 19:10:19 UTC 2017
-...checkmark sent
-Sun Jan 29 19:10:47 UTC 2017
-...waiting for new connection
-ESTAB      0      657         192.168.1.165:6400          136.56.8.181:49828    users:(("tcpser",30991,15))
-Sun Jan 29 19:12:27 UTC 2017
-...checkmark sent
-Sun Jan 29 19:12:56 UTC 2017
-...waiting for new connection
-ESTAB      0      0           192.168.1.165:6400          136.56.8.181:49830    users:(("tcpser",30991,15))
-Sun Jan 29 19:13:35 UTC 2017
-...checkmark sent
-Sun Jan 29 19:14:39 UTC 2017
-...waiting for new connection
-ESTAB      0      693         192.168.1.165:6400        108.172.200.88:15435    users:(("tcpser",30991,15))
-Sun Jan 29 23:46:32 UTC 2017
-...checkmark sent
-Sun Jan 29 23:52:16 UTC 2017
-...waiting for new connection
-ESTAB      0      0           192.168.1.165:6400          72.45.14.242:6315     users:(("tcpser",30991,15))
-Mon Jan 30 01:27:25 UTC 2017
-...checkmark sent
-Mon Jan 30 01:30:23 UTC 2017
-...waiting for new connection
-ESTAB      0      0           192.168.1.165:6400        67.168.132.127:12169    users:(("tcpser",30991,15))
-Mon Jan 30 04:47:05 UTC 2017
-...checkmark sent
-Mon Jan 30 04:52:05 UTC 2017
-...waiting for new connection
-ESTAB      0      0           192.168.1.165:6400          97.91.206.27:8959     users:(("tcpser",30991,15))
-Mon Jan 30 05:11:11 UTC 2017
-...checkmark sent
-Mon Jan 30 05:23:05 UTC 2017
-...waiting for new connection
-ESTAB      0      0           192.168.1.165:6400        207.34.169.223:14622    users:(("tcpser",30991,15))
-Mon Jan 30 08:20:23 UTC 2017
+ESTAB      0      784         192.168.1.165:6400        104.175.17.237:16678    users:(("tcpser",28139,15))
+Thu Feb 16 03:54:13 UTC 2017
 ...checkmark sent
 ...protocol change
-Mon Jan 30 08:34:40 UTC 2017
+Thu Feb 16 04:00:49 UTC 2017
+...waiting for new connection
+ESTAB      0      432         192.168.1.165:6400        76.121.180.163:30551    users:(("tcpser",28139,15))
+Thu Feb 16 05:37:30 UTC 2017
+...checkmark sent
+Thu Feb 16 05:44:27 UTC 2017
+...waiting for new connection
+ESTAB      0      402         192.168.1.165:6400         123.2.100.158:7238     users:(("tcpser",28139,15))
+Thu Feb 16 06:07:01 UTC 2017
+...checkmark sent
+Thu Feb 16 06:15:57 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400        207.34.149.208:26870    users:(("tcpser",28139,15))
+Thu Feb 16 10:26:13 UTC 2017
+Thu Feb 16 10:26:18 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400        207.34.149.208:26897    users:(("tcpser",28139,15))
+Thu Feb 16 10:26:27 UTC 2017
+...checkmark sent
+Thu Feb 16 10:33:49 UTC 2017
 ...waiting for new connection
 One noip2 process is already active,
 and the multiple instance flag (-M) is not set.
 ...waiting for new connection
-ESTAB      0      0           192.168.1.165:6400        207.34.169.223:36851    users:(("tcpser",10959,15))
-Mon Jan 30 08:42:28 UTC 2017
+ESTAB      0      0           192.168.1.165:6400         142.104.60.49:41971    users:(("tcpser",6835,15))
+Thu Feb 16 17:26:56 UTC 2017
 ...checkmark sent
-Mon Jan 30 08:42:56 UTC 2017
+...protocol change
+Thu Feb 16 17:42:09 UTC 2017
 ...waiting for new connection
-ESTAB      0      0           192.168.1.165:6400         79.138.128.40:36350    users:(("tcpser",10959,15))
-Mon Jan 30 10:14:10 UTC 2017
-...checkmark sent
-Mon Jan 30 10:25:32 UTC 2017
+One noip2 process is already active,
+and the multiple instance flag (-M) is not set.
 ...waiting for new connection
-ESTAB      0      0           192.168.1.165:6400           76.105.39.3:18150    users:(("tcpser",10959,15))
-Mon Jan 30 16:22:09 UTC 2017
+ESTAB      0      0           192.168.1.165:6400        76.121.180.163:8012     users:(("tcpser",3092,15))
+Fri Feb 17 15:44:40 UTC 2017
 ...checkmark sent
-Mon Jan 30 16:31:09 UTC 2017
+Fri Feb 17 15:47:50 UTC 2017
 ...waiting for new connection
-ESTAB      0      0           192.168.1.165:6400        67.168.132.127:22559    users:(("tcpser",10959,15))
-Mon Jan 30 16:36:04 UTC 2017
+ESTAB      0      438         192.168.1.165:6400           76.105.39.3:10705    users:(("tcpser",3092,15))
+Fri Feb 17 18:27:58 UTC 2017
 ...checkmark sent
-Mon Jan 30 16:37:20 UTC 2017
+Fri Feb 17 18:29:18 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400         142.104.60.49:49223    users:(("tcpser",3092,15))
+Fri Feb 17 20:00:29 UTC 2017
+...checkmark sent
+Fri Feb 17 20:02:44 UTC 2017
+...waiting for new connection
+ESTAB      0      405         192.168.1.165:6400       107.184.156.251:1024     users:(("tcpser",3092,15))
+Fri Feb 17 22:29:23 UTC 2017
+...checkmark sent
+Fri Feb 17 22:29:26 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400          76.69.44.125:18951    users:(("tcpser",3092,15))
+Fri Feb 17 23:23:57 UTC 2017
+...checkmark sent
+Fri Feb 17 23:24:24 UTC 2017
+...waiting for new connection
+ESTAB      0      693         192.168.1.165:6400          76.69.44.125:4991     users:(("tcpser",3092,15))
+Sat Feb 18 00:06:05 UTC 2017
+...checkmark sent
+...protocol change
+...drive 8 switch
+Sat Feb 18 00:17:02 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400         142.104.60.49:43392    users:(("tcpser",3092,15))
+Sat Feb 18 00:29:05 UTC 2017
+...checkmark sent
+...protocol change
+Sat Feb 18 00:35:42 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400        67.168.132.127:18583    users:(("tcpser",3092,15))
+Sat Feb 18 04:56:21 UTC 2017
+...checkmark sent
+...protocol change
+Sat Feb 18 05:20:44 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400          97.91.206.27:23089    users:(("tcpser",3092,15))
+Sat Feb 18 06:08:48 UTC 2017
+...checkmark sent
+Sat Feb 18 06:27:37 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400         172.9.129.203:1112     users:(("tcpser",3092,15))
+Sat Feb 18 08:42:41 UTC 2017
+...checkmark sent
+Sat Feb 18 09:00:43 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400        207.34.149.208:25238    users:(("tcpser",3092,15))
+Sat Feb 18 09:14:03 UTC 2017
+...checkmark sent
+Sat Feb 18 09:27:34 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400        207.34.149.208:50414    users:(("tcpser",3092,15))
+Sat Feb 18 09:31:38 UTC 2017
+...checkmark sent
+Sat Feb 18 09:34:38 UTC 2017
+...waiting for new connection
+One noip2 process is already active,
+and the multiple instance flag (-M) is not set.
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400          71.14.88.254:51240    users:(("tcpser",18034,15))
+Sat Feb 18 14:42:09 UTC 2017
+...checkmark sent
+Sat Feb 18 14:47:58 UTC 2017
+...waiting for new connection
+ESTAB      0      678         192.168.1.165:6400         172.9.129.203:4667     users:(("tcpser",18034,15))
+Sat Feb 18 15:14:36 UTC 2017
+...checkmark sent
+Sat Feb 18 15:16:01 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400        207.34.149.208:50528    users:(("tcpser",18034,15))
+Sat Feb 18 18:37:58 UTC 2017
+...checkmark sent
+...protocol change
+Sat Feb 18 18:43:17 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400        24.211.253.123:51808    users:(("tcpser",18034,15))
+Sat Feb 18 23:11:50 UTC 2017
+...checkmark sent
+...protocol change
+Sat Feb 18 23:22:57 UTC 2017
+...waiting for new connection
+One noip2 process is already active,
+and the multiple instance flag (-M) is not set.
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400          65.110.23.81:51437    users:(("tcpser",28435,15))
+Sun Feb 19 03:37:16 UTC 2017
+...checkmark sent
+Sun Feb 19 03:42:38 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400        67.168.132.127:24938    users:(("tcpser",28435,15))
+Sun Feb 19 05:36:51 UTC 2017
+...checkmark sent
+Sun Feb 19 05:42:50 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400         192.168.1.101:18420    users:(("tcpser",28435,15))
+Sun Feb 19 07:54:40 UTC 2017
+...checkmark sent
+...protocol change
+Sun Feb 19 08:20:06 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400          65.110.23.81:19934    users:(("tcpser",28435,15))
+Sun Feb 19 08:20:41 UTC 2017
+Sun Feb 19 08:21:20 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400          65.110.23.81:19940    users:(("tcpser",28435,15))
+Sun Feb 19 08:21:21 UTC 2017
+...checkmark sent
+...protocol change
+Sun Feb 19 08:31:38 UTC 2017
+...waiting for new connection
+One noip2 process is already active,
+and the multiple instance flag (-M) is not set.
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400        67.168.132.127:1938     users:(("tcpser",6818,15))
+Sun Feb 19 17:02:37 UTC 2017
+...checkmark sent
+...protocol change
+Sun Feb 19 17:09:42 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400        208.181.121.33:36050    users:(("tcpser",6818,15))
+Sun Feb 19 21:35:48 UTC 2017
+...checkmark sent
+Sun Feb 19 21:36:16 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400         50.92.102.199:9510     users:(("tcpser",6818,15))
+Mon Feb 20 01:48:48 UTC 2017
+...checkmark sent
+...protocol change
+Mon Feb 20 02:11:12 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400        67.168.132.127:15505    users:(("tcpser",6818,15))
+Mon Feb 20 05:11:35 UTC 2017
+...checkmark sent
+...protocol change
+Mon Feb 20 05:17:18 UTC 2017
+...waiting for new connection
+ESTAB      0      13          192.168.1.165:6400        67.168.132.127:32031    users:(("tcpser",6818,15))
+Mon Feb 20 05:18:08 UTC 2017
+...checkmark sent
+Mon Feb 20 05:18:57 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400        67.168.132.127:13030    users:(("tcpser",6818,15))
+Mon Feb 20 05:19:57 UTC 2017
+...checkmark sent
+...protocol change
+Mon Feb 20 05:31:18 UTC 2017
+...waiting for new connection
+One noip2 process is already active,
+and the multiple instance flag (-M) is not set.
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400         207.34.151.80:27943    users:(("tcpser",30236,15))
+Mon Feb 20 09:14:08 UTC 2017
+Mon Feb 20 09:14:12 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400         207.34.151.80:27955    users:(("tcpser",30236,15))
+Mon Feb 20 09:14:27 UTC 2017
+...checkmark sent
+Mon Feb 20 09:25:02 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400          71.14.88.254:63221    users:(("tcpser",30236,15))
+Mon Feb 20 15:51:38 UTC 2017
+...checkmark sent
+Mon Feb 20 15:59:48 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400         142.104.60.49:48096    users:(("tcpser",30236,15))
+Mon Feb 20 17:50:00 UTC 2017
+...checkmark sent
+Mon Feb 20 17:56:00 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400         142.104.60.49:51474    users:(("tcpser",30236,15))
+Mon Feb 20 19:05:34 UTC 2017
+...checkmark sent
+Mon Feb 20 19:06:02 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400          72.45.14.242:23124    users:(("tcpser",30236,15))
+Mon Feb 20 21:40:17 UTC 2017
+...checkmark sent
+...protocol change
+Mon Feb 20 22:06:22 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400         142.104.60.49:54412    users:(("tcpser",30236,15))
+Mon Feb 20 22:20:13 UTC 2017
+...checkmark sent
+Mon Feb 20 22:25:04 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400           76.105.39.3:46117    users:(("tcpser",30236,15))
+Mon Feb 20 22:45:49 UTC 2017
+...checkmark sent
+Mon Feb 20 22:46:04 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400           76.105.39.3:46118    users:(("tcpser",30236,15))
+Mon Feb 20 22:46:32 UTC 2017
+...checkmark sent
+Mon Feb 20 23:01:51 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400         142.104.60.49:55953    users:(("tcpser",30236,15))
+Mon Feb 20 23:32:24 UTC 2017
+...checkmark sent
+...protocol change
+Mon Feb 20 23:41:21 UTC 2017
+...waiting for new connection
+ESTAB      0      432         192.168.1.165:6400        108.168.41.245:1027     users:(("tcpser",30236,15))
+Tue Feb 21 01:28:08 UTC 2017
+...checkmark sent
+Tue Feb 21 01:53:56 UTC 2017
+...waiting for new connection
+One noip2 process is already active,
+and the multiple instance flag (-M) is not set.
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400         172.9.129.203:4797     users:(("tcpser",16301,15))
+Tue Feb 21 08:22:49 UTC 2017
+...checkmark sent
+Tue Feb 21 08:25:36 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400         172.9.129.203:4996     users:(("tcpser",16301,15))
+Tue Feb 21 08:25:49 UTC 2017
+...checkmark sent
+...protocol change
+Tue Feb 21 09:00:02 UTC 2017
+...waiting for new connection
+ESTAB      0      567         192.168.1.165:6400           76.105.39.3:38946    users:(("tcpser",16301,15))
+Tue Feb 21 16:23:45 UTC 2017
+...checkmark sent
+Tue Feb 21 16:24:07 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400          71.14.88.254:57713    users:(("tcpser",16301,15))
+Tue Feb 21 17:30:53 UTC 2017
+...checkmark sent
+Tue Feb 21 17:35:30 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400        38.104.192.106:52655    users:(("tcpser",16301,15))
+Tue Feb 21 18:16:15 UTC 2017
+...checkmark sent
+Tue Feb 21 18:16:56 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400        38.104.192.106:52657    users:(("tcpser",16301,15))
+Tue Feb 21 18:17:01 UTC 2017
+Tue Feb 21 18:17:05 UTC 2017
+...waiting for new connection
+ESTAB      0      687         192.168.1.165:6400          72.45.14.242:15202    users:(("tcpser",16301,15))
+Tue Feb 21 19:15:42 UTC 2017
+...checkmark sent
+Tue Feb 21 19:23:45 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400         142.104.60.49:60806    users:(("tcpser",16301,15))
+Tue Feb 21 19:24:11 UTC 2017
+...checkmark sent
+Tue Feb 21 19:28:26 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400           76.105.39.3:7971     users:(("tcpser",16301,15))
+Tue Feb 21 22:21:02 UTC 2017
+...checkmark sent
+Tue Feb 21 22:25:04 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400         142.104.60.49:35073    users:(("tcpser",16301,15))
+Tue Feb 21 22:30:50 UTC 2017
+...checkmark sent
+Tue Feb 21 22:35:40 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400         142.104.60.49:36693    users:(("tcpser",16301,15))
+Tue Feb 21 23:02:18 UTC 2017
+...checkmark sent
+Tue Feb 21 23:09:21 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400         50.92.102.199:31145    users:(("tcpser",16301,15))
+Wed Feb 22 01:01:09 UTC 2017
+...checkmark sent
+...protocol change
+Wed Feb 22 01:27:22 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400        68.109.172.239:48235    users:(("tcpser",16301,15))
+Wed Feb 22 03:04:45 UTC 2017
+...checkmark sent
+Wed Feb 22 03:12:48 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400          70.78.129.97:26324    users:(("tcpser",16301,15))
+Wed Feb 22 03:22:58 UTC 2017
+...checkmark sent
+Wed Feb 22 03:27:57 UTC 2017
+...waiting for new connection
+ESTAB      0      402         192.168.1.165:6400           74.5.22.108:19259    users:(("tcpser",16301,15))
+Wed Feb 22 03:59:25 UTC 2017
+...checkmark sent
+Wed Feb 22 03:59:38 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400        67.168.132.127:1212     users:(("tcpser",16301,15))
+Wed Feb 22 05:20:58 UTC 2017
+...checkmark sent
+Wed Feb 22 05:32:24 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400          97.91.206.27:17427    users:(("tcpser",16301,15))
+Wed Feb 22 06:51:01 UTC 2017
+...checkmark sent
+Wed Feb 22 07:09:06 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400          65.110.26.83:11298    users:(("tcpser",16301,15))
+Wed Feb 22 07:10:55 UTC 2017
+...checkmark sent
+Wed Feb 22 07:44:06 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400          65.110.26.83:13641    users:(("tcpser",16301,15))
+Wed Feb 22 09:34:52 UTC 2017
+...checkmark sent
+Wed Feb 22 09:52:53 UTC 2017
+...waiting for new connection
+One noip2 process is already active,
+and the multiple instance flag (-M) is not set.
+...waiting for new connection
+ESTAB      0      309         192.168.1.165:6400         193.154.42.65:61296    users:(("tcpser",2136,15))
+Wed Feb 22 15:11:53 UTC 2017
+...checkmark sent
+Wed Feb 22 15:12:35 UTC 2017
+...waiting for new connection
+ESTAB      0      784         192.168.1.165:6400         193.154.42.65:61317    users:(("tcpser",2136,15))
+Wed Feb 22 15:12:49 UTC 2017
+...checkmark sent
+Wed Feb 22 15:13:10 UTC 2017
+...waiting for new connection
+ESTAB      0      6           192.168.1.165:6400         193.154.42.65:61321    users:(("tcpser",2136,15))
+Wed Feb 22 15:13:34 UTC 2017
+Wed Feb 22 15:13:42 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400         193.154.42.65:61518    users:(("tcpser",2136,15))
+Wed Feb 22 15:36:44 UTC 2017
+...checkmark sent
+Wed Feb 22 15:38:18 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400        85.148.133.198:50340    users:(("tcpser",2136,15))
+Wed Feb 22 16:29:48 UTC 2017
+...checkmark sent
+Wed Feb 22 16:34:47 UTC 2017
+...waiting for new connection
+ESTAB      0      657         192.168.1.165:6400        85.148.133.198:50824    users:(("tcpser",2136,15))
+Wed Feb 22 17:33:20 UTC 2017
+...checkmark sent
+Wed Feb 22 17:40:15 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400         142.104.60.49:42731    users:(("tcpser",2136,15))
+Wed Feb 22 18:08:43 UTC 2017
+...checkmark sent
+Wed Feb 22 18:10:52 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400         142.104.60.49:43372    users:(("tcpser",2136,15))
+Wed Feb 22 18:26:58 UTC 2017
+...checkmark sent
+Wed Feb 22 18:38:45 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400          71.14.88.254:55410    users:(("tcpser",2136,15))
+Wed Feb 22 19:59:16 UTC 2017
+...checkmark sent
+...protocol change
+Wed Feb 22 20:21:58 UTC 2017
+...waiting for new connection
+ESTAB      0      423         192.168.1.165:6400           31.54.197.9:38474    users:(("tcpser",2136,15))
+Wed Feb 22 20:55:52 UTC 2017
+...checkmark sent
+Wed Feb 22 20:56:13 UTC 2017
+...waiting for new connection
+ESTAB      0      5           192.168.1.165:6400           31.54.197.9:38476    users:(("tcpser",2136,15))
+Wed Feb 22 20:56:48 UTC 2017
+Wed Feb 22 20:57:16 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400           31.54.197.9:38478    users:(("tcpser",2136,15))
+Wed Feb 22 20:58:54 UTC 2017
+...checkmark sent
+Wed Feb 22 20:58:59 UTC 2017
+...waiting for new connection
+ESTAB      0      28          192.168.1.165:6400           31.54.197.9:38480    users:(("tcpser",2136,15))
+Wed Feb 22 20:59:15 UTC 2017
+...checkmark sent
+Wed Feb 22 21:00:18 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400           31.54.197.9:38482    users:(("tcpser",2136,15))
+Wed Feb 22 21:00:26 UTC 2017
+...checkmark sent
+Wed Feb 22 21:00:51 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400         142.104.60.49:48428    users:(("tcpser",2136,15))
+Wed Feb 22 21:00:56 UTC 2017
+Wed Feb 22 21:01:09 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400         142.104.60.49:49894    users:(("tcpser",2136,15))
+Wed Feb 22 21:53:47 UTC 2017
+...checkmark sent
+...protocol change
+Wed Feb 22 22:02:22 UTC 2017
+...waiting for new connection
+ESTAB      0      693         192.168.1.165:6400          71.14.88.254:56602    users:(("tcpser",2136,15))
+Wed Feb 22 23:29:54 UTC 2017
+...checkmark sent
+...protocol change
+Wed Feb 22 23:34:44 UTC 2017
+...waiting for new connection
+ESTAB      0      432         192.168.1.165:6400          71.14.88.254:56673    users:(("tcpser",2136,15))
+Wed Feb 22 23:35:10 UTC 2017
+...checkmark sent
+...protocol change
+Wed Feb 22 23:56:26 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400         142.104.60.49:56760    users:(("tcpser",2136,15))
+Thu Feb 23 00:18:32 UTC 2017
+...checkmark sent
+...protocol change
+Thu Feb 23 00:21:36 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400        24.211.244.167:51515    users:(("tcpser",2136,15))
+Thu Feb 23 00:33:15 UTC 2017
+...checkmark sent
+Thu Feb 23 00:58:28 UTC 2017
+...waiting for new connection
+ESTAB      0      693         192.168.1.165:6400        67.168.132.127:4434     users:(("tcpser",2136,15))
+Thu Feb 23 02:30:13 UTC 2017
+...checkmark sent
+...protocol change
+Thu Feb 23 02:43:21 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400        67.168.132.127:31445    users:(("tcpser",2136,15))
+Thu Feb 23 06:55:42 UTC 2017
+...checkmark sent
+...protocol change
+Thu Feb 23 07:03:50 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400          65.110.26.83:11404    users:(("tcpser",2136,15))
+Thu Feb 23 08:27:05 UTC 2017
+...checkmark sent
+Thu Feb 23 08:28:03 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400          65.110.26.83:11681    users:(("tcpser",2136,15))
+Thu Feb 23 08:33:35 UTC 2017
+...checkmark sent
+Thu Feb 23 08:36:49 UTC 2017
+...waiting for new connection
+One noip2 process is already active,
+and the multiple instance flag (-M) is not set.
+...waiting for new connection
+ESTAB      0      423         192.168.1.165:6400          71.14.88.254:63895    users:(("tcpser",24770,15))
+Thu Feb 23 15:59:09 UTC 2017
+...checkmark sent
+...protocol change
+Thu Feb 23 16:15:25 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400        67.168.132.127:28510    users:(("tcpser",24770,15))
+Thu Feb 23 16:46:10 UTC 2017
+...checkmark sent
+Thu Feb 23 16:50:08 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400         142.104.60.49:35993    users:(("tcpser",24770,15))
+Thu Feb 23 19:41:21 UTC 2017
+...checkmark sent
+...protocol change
+Thu Feb 23 19:56:05 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400        76.121.180.163:3558     users:(("tcpser",24770,15))
+Fri Feb 24 02:42:21 UTC 2017
+...checkmark sent
+Fri Feb 24 02:59:25 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400        199.185.130.97:24986    users:(("tcpser",24770,15))
+Fri Feb 24 03:24:53 UTC 2017
+...checkmark sent
+Fri Feb 24 03:38:37 UTC 2017
+...waiting for new connection
+ESTAB      0      0               127.0.0.1:6400             127.0.0.1:35020    users:(("tcpser",24770,15))
+Fri Feb 24 05:34:26 UTC 2017
+...checkmark sent
+Fri Feb 24 05:34:42 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400          97.91.206.27:5570     users:(("tcpser",24770,15))
+Fri Feb 24 07:00:55 UTC 2017
+...checkmark sent
+Fri Feb 24 07:12:18 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400        207.194.128.38:25921    users:(("tcpser",24770,15))
+Fri Feb 24 07:23:51 UTC 2017
+...checkmark sent
+Fri Feb 24 07:29:24 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400        207.194.128.38:26778    users:(("tcpser",24770,15))
+Fri Feb 24 07:51:03 UTC 2017
+...checkmark sent
+...protocol change
+Fri Feb 24 07:57:10 UTC 2017
+...waiting for new connection
+One noip2 process is already active,
+and the multiple instance flag (-M) is not set.
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400        207.194.128.38:48038    users:(("tcpser",16218,15))
+Fri Feb 24 17:03:36 UTC 2017
+...checkmark sent
+Fri Feb 24 17:04:04 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400         142.104.60.49:40888    users:(("tcpser",16218,15))
+Fri Feb 24 19:10:19 UTC 2017
+...checkmark sent
+Fri Feb 24 19:14:38 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400         142.104.60.49:43874    users:(("tcpser",16218,15))
+Fri Feb 24 20:37:10 UTC 2017
+...checkmark sent
+Fri Feb 24 20:38:15 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400           76.105.39.3:12870    users:(("tcpser",16218,15))
+Fri Feb 24 21:52:18 UTC 2017
+...checkmark sent
+...protocol change
+Fri Feb 24 22:05:56 UTC 2017
+...waiting for new connection
+ESTAB      0      309         192.168.1.165:6400         142.104.60.49:45837    users:(("tcpser",16218,15))
+Fri Feb 24 22:32:50 UTC 2017
+...checkmark sent
+...protocol change
+Fri Feb 24 22:41:22 UTC 2017
+...waiting for new connection
+ESTAB      0      564         192.168.1.165:6400         45.58.212.174:63923    users:(("tcpser",16218,15))
+Sat Feb 25 01:28:04 UTC 2017
+...checkmark sent
+...protocol change
+...drive 8 switch
+Sat Feb 25 01:36:50 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400        76.121.180.163:1968     users:(("tcpser",16218,15))
+Sat Feb 25 05:12:03 UTC 2017
+Sat Feb 25 05:12:30 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400        76.121.180.163:1977     users:(("tcpser",16218,15))
+Sat Feb 25 05:12:38 UTC 2017
+...checkmark sent
+Sat Feb 25 05:17:40 UTC 2017
+...waiting for new connection
+One noip2 process is already active,
+and the multiple instance flag (-M) is not set.
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400         172.9.129.203:1029     users:(("tcpser",26943,15))
+Sat Feb 25 08:27:57 UTC 2017
+...checkmark sent
+...protocol change
+Sat Feb 25 09:33:45 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400          65.110.24.74:37271    users:(("tcpser",26943,15))
+Sat Feb 25 20:22:30 UTC 2017
+...checkmark sent
+Sat Feb 25 20:22:45 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400          65.110.16.36:52466    users:(("tcpser",26943,15))
+Sat Feb 25 23:13:28 UTC 2017
+...checkmark sent
+Sat Feb 25 23:14:44 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400          65.110.16.36:52470    users:(("tcpser",26943,15))
+Sat Feb 25 23:22:34 UTC 2017
+Sat Feb 25 23:23:30 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400          65.110.16.36:52471    users:(("tcpser",26943,15))
+Sat Feb 25 23:23:33 UTC 2017
+Sat Feb 25 23:23:35 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400          65.110.16.36:52472    users:(("tcpser",26943,15))
+Sat Feb 25 23:23:38 UTC 2017
+Sat Feb 25 23:23:47 UTC 2017
+...waiting for new connection
+One noip2 process is already active,
+and the multiple instance flag (-M) is not set.
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400          65.110.16.36:52475    users:(("tcpser",11315,15))
+Sat Feb 25 23:26:39 UTC 2017
+Sat Feb 25 23:26:45 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400          65.110.16.36:52476    users:(("tcpser",11315,15))
+Sat Feb 25 23:27:15 UTC 2017
+Sat Feb 25 23:27:24 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400          65.110.16.36:52477    users:(("tcpser",11315,15))
+Sat Feb 25 23:27:31 UTC 2017
+Sat Feb 25 23:27:35 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400          65.110.16.36:52478    users:(("tcpser",11315,15))
+Sat Feb 25 23:27:38 UTC 2017
+Sat Feb 25 23:27:40 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400          65.110.16.36:52479    users:(("tcpser",11315,15))
+Sat Feb 25 23:27:45 UTC 2017
+Sat Feb 25 23:27:46 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400          65.110.16.36:52480    users:(("tcpser",11315,15))
+Sat Feb 25 23:27:52 UTC 2017
+Sat Feb 25 23:27:59 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400          65.110.16.97:41430    users:(("tcpser",11315,15))
+Sun Feb 26 00:09:11 UTC 2017
+Sun Feb 26 00:09:23 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400          65.110.16.97:41432    users:(("tcpser",11315,15))
+Sun Feb 26 00:09:31 UTC 2017
+Sun Feb 26 00:09:32 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400          65.110.16.97:41433    users:(("tcpser",11315,15))
+Sun Feb 26 00:09:38 UTC 2017
+Sun Feb 26 00:09:48 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400          65.110.16.97:41434    users:(("tcpser",11315,15))
+Sun Feb 26 00:09:52 UTC 2017
+Sun Feb 26 00:09:53 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400          65.110.16.97:41437    users:(("tcpser",11315,15))
+Sun Feb 26 00:09:58 UTC 2017
+Sun Feb 26 00:09:59 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400          65.110.16.97:41438    users:(("tcpser",11315,15))
+Sun Feb 26 00:10:02 UTC 2017
+Sun Feb 26 00:10:04 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400          65.110.16.97:41440    users:(("tcpser",11315,15))
+Sun Feb 26 00:10:09 UTC 2017
+Sun Feb 26 00:10:11 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400          65.110.16.97:41441    users:(("tcpser",11315,15))
+Sun Feb 26 00:10:15 UTC 2017
+Sun Feb 26 00:10:16 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400          65.110.16.97:41442    users:(("tcpser",11315,15))
+Sun Feb 26 00:10:21 UTC 2017
+Sun Feb 26 00:10:39 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400          65.110.16.97:41443    users:(("tcpser",11315,15))
+Sun Feb 26 00:10:45 UTC 2017
+Sun Feb 26 00:11:03 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400          65.110.16.97:41446    users:(("tcpser",11315,15))
+Sun Feb 26 00:11:07 UTC 2017
+...checkmark sent
+Sun Feb 26 00:11:46 UTC 2017
+...waiting for new connection
+ESTAB      0      564         192.168.1.165:6400          75.13.161.93:51017    users:(("tcpser",11315,15))
+Sun Feb 26 00:47:23 UTC 2017
+...checkmark sent
+Sun Feb 26 00:54:38 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400         50.92.102.199:16950    users:(("tcpser",11315,15))
+Sun Feb 26 01:14:32 UTC 2017
+...checkmark sent
+...protocol change
+Sun Feb 26 01:40:30 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400          72.45.14.242:24225    users:(("tcpser",11315,15))
+Sun Feb 26 02:37:13 UTC 2017
+...checkmark sent
+Sun Feb 26 02:53:38 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400          65.110.16.97:41835    users:(("tcpser",11315,15))
+Sun Feb 26 04:36:30 UTC 2017
+...checkmark sent
+Sun Feb 26 04:47:14 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400          65.110.16.97:41838    users:(("tcpser",11315,15))
+Sun Feb 26 04:47:18 UTC 2017
+...checkmark sent
+Sun Feb 26 04:47:34 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400           76.105.39.3:1157     users:(("tcpser",11315,15))
+Sun Feb 26 05:13:03 UTC 2017
+...checkmark sent
+Sun Feb 26 05:14:25 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400           76.105.39.3:26337    users:(("tcpser",11315,15))
+Sun Feb 26 05:14:52 UTC 2017
+...checkmark sent
+Sun Feb 26 05:15:33 UTC 2017
+...waiting for new connection
+ESTAB      0      625         192.168.1.165:6400           76.105.39.3:32526    users:(("tcpser",11315,15))
+Sun Feb 26 05:18:36 UTC 2017
+...checkmark sent
+Sun Feb 26 05:27:17 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400         76.184.101.46:15364    users:(("tcpser",11315,15))
+Sun Feb 26 06:17:53 UTC 2017
+...checkmark sent
+Sun Feb 26 06:18:18 UTC 2017
+...waiting for new connection
+ESTAB      0      2           192.168.1.165:6400         76.184.101.46:16240    users:(("tcpser",11315,15))
+Sun Feb 26 06:18:50 UTC 2017
+Sun Feb 26 06:19:23 UTC 2017
+...waiting for new connection
+One noip2 process is already active,
+and the multiple instance flag (-M) is not set.
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400        213.114.24.163:65244    users:(("tcpser",13482,15))
+Sun Feb 26 11:54:43 UTC 2017
+...checkmark sent
+Sun Feb 26 11:56:02 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400          65.110.16.97:42023    users:(("tcpser",13482,15))
+Sun Feb 26 19:53:38 UTC 2017
+...checkmark sent
+Sun Feb 26 19:54:12 UTC 2017
+...waiting for new connection
+...waiting for new connection
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400          65.110.16.97:36779    users:(("tcpser",2288,15))
+Sun Feb 26 20:51:28 UTC 2017
+...checkmark sent
+Sun Feb 26 20:52:03 UTC 2017
+...waiting for new connection
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400          65.110.16.97:14237    users:(("tcpser",2286,15))
+Sun Feb 26 22:17:35 UTC 2017
+...checkmark sent
+Sun Feb 26 22:18:07 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400        67.168.132.127:12120    users:(("tcpser",2286,15))
+Sun Feb 26 23:01:36 UTC 2017
+...checkmark sent
+...protocol change
+Sun Feb 26 23:24:47 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400          71.14.88.254:59996    users:(("tcpser",2286,15))
+Mon Feb 27 01:07:29 UTC 2017
+...checkmark sent
+...protocol change
+Mon Feb 27 01:50:22 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400         50.92.102.199:22350    users:(("tcpser",2286,15))
+Mon Feb 27 02:22:35 UTC 2017
+...checkmark sent
+Mon Feb 27 02:24:07 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400         50.92.102.199:22539    users:(("tcpser",2286,15))
+Mon Feb 27 02:24:39 UTC 2017
+...checkmark sent
+Mon Feb 27 02:25:18 UTC 2017
+...waiting for new connection
+ESTAB      0      402         192.168.1.165:6400         50.92.102.199:10724    users:(("tcpser",2286,15))
+Mon Feb 27 02:25:34 UTC 2017
+...checkmark sent
+...protocol change
+Mon Feb 27 02:39:37 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400        67.168.132.127:2225     users:(("tcpser",2286,15))
+Mon Feb 27 05:01:25 UTC 2017
+...checkmark sent
+...protocol change
+Mon Feb 27 05:14:46 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400        67.168.132.127:16631    users:(("tcpser",2286,15))
+Mon Feb 27 05:15:05 UTC 2017
+...checkmark sent
+...protocol change
+Mon Feb 27 05:27:29 UTC 2017
+...waiting for new connection
+ESTAB      0      402         192.168.1.165:6400          97.91.206.27:6617     users:(("tcpser",2286,15))
+Mon Feb 27 06:33:21 UTC 2017
+...checkmark sent
+Mon Feb 27 06:56:56 UTC 2017
+...waiting for new connection
+One noip2 process is already active,
+and the multiple instance flag (-M) is not set.
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400          65.110.16.97:19444    users:(("tcpser",25399,15))
+Mon Feb 27 08:44:40 UTC 2017
+...checkmark sent
+...protocol change
+Mon Feb 27 08:58:27 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400         142.104.60.49:34311    users:(("tcpser",25399,15))
+Mon Feb 27 17:54:39 UTC 2017
+...checkmark sent
+Mon Feb 27 17:55:56 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400         142.104.60.49:34643    users:(("tcpser",25399,15))
+Mon Feb 27 18:24:26 UTC 2017
+...checkmark sent
+...protocol change
+Mon Feb 27 18:30:43 UTC 2017
+...waiting for new connection
+ESTAB      0      309         192.168.1.165:6400        63.145.136.125:58551    users:(("tcpser",25399,15))
+Mon Feb 27 21:00:26 UTC 2017
+...checkmark sent
+Mon Feb 27 21:02:42 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400         142.104.60.49:40103    users:(("tcpser",25399,15))
+Mon Feb 27 21:21:20 UTC 2017
+...checkmark sent
+Mon Feb 27 21:22:36 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400         142.104.60.49:40107    users:(("tcpser",25399,15))
+Mon Feb 27 21:22:47 UTC 2017
+...checkmark sent
+Mon Feb 27 21:25:17 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400         142.104.60.49:43640    users:(("tcpser",25399,15))
+Mon Feb 27 22:17:05 UTC 2017
+...checkmark sent
+Mon Feb 27 22:23:06 UTC 2017
+...waiting for new connection
+ESTAB      0      784         192.168.1.165:6400        50.107.107.233:60621    users:(("tcpser",25399,15))
+Mon Feb 27 22:43:57 UTC 2017
+...checkmark sent
+Mon Feb 27 22:46:01 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400           76.105.39.3:10630    users:(("tcpser",25399,15))
+Mon Feb 27 23:02:55 UTC 2017
+...checkmark sent
+Mon Feb 27 23:04:08 UTC 2017
+...waiting for new connection
+ESTAB      0      657         192.168.1.165:6400           76.105.39.3:2540     users:(("tcpser",25399,15))
+Mon Feb 27 23:29:29 UTC 2017
+...checkmark sent
+Mon Feb 27 23:43:54 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400         142.104.60.49:51449    users:(("tcpser",25399,15))
+Mon Feb 27 23:44:34 UTC 2017
+...checkmark sent
+Mon Feb 27 23:50:38 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400       173.171.212.194:54863    users:(("tcpser",25399,15))
+Tue Feb 28 02:34:15 UTC 2017
+...checkmark sent
+Tue Feb 28 02:34:50 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400        67.168.132.127:15319    users:(("tcpser",25399,15))
+Tue Feb 28 02:44:06 UTC 2017
+...checkmark sent
+Tue Feb 28 02:49:17 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400       173.171.212.194:55104    users:(("tcpser",25399,15))
+Tue Feb 28 03:03:11 UTC 2017
+...checkmark sent
+Tue Feb 28 03:03:35 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400        207.34.168.238:11288    users:(("tcpser",25399,15))
+Tue Feb 28 06:21:14 UTC 2017
+...checkmark sent
+Tue Feb 28 06:21:43 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400        207.34.168.238:11382    users:(("tcpser",25399,15))
+Tue Feb 28 06:35:57 UTC 2017
+...checkmark sent
+Tue Feb 28 06:36:18 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400        207.34.168.238:13188    users:(("tcpser",25399,15))
+Tue Feb 28 08:29:08 UTC 2017
+...checkmark sent
+...protocol change
+Tue Feb 28 08:40:40 UTC 2017
+...waiting for new connection
+One noip2 process is already active,
+and the multiple instance flag (-M) is not set.
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400        207.34.168.238:13822    users:(("tcpser",24253,15))
+Tue Feb 28 08:49:13 UTC 2017
+...checkmark sent
+Tue Feb 28 08:50:41 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400          72.45.14.242:30907    users:(("tcpser",24253,15))
+Tue Feb 28 21:43:56 UTC 2017
+...checkmark sent
+Tue Feb 28 21:59:52 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400         142.104.60.49:49697    users:(("tcpser",24253,15))
+Tue Feb 28 22:11:19 UTC 2017
+...checkmark sent
+Tue Feb 28 22:15:46 UTC 2017
+...waiting for new connection
+ESTAB      0      564         192.168.1.165:6400         65.188.137.41:58582    users:(("tcpser",24253,15))
+Wed Mar  1 00:57:51 UTC 2017
+...checkmark sent
+Wed Mar  1 01:28:33 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400        67.168.132.127:1084     users:(("tcpser",24253,15))
+Wed Mar  1 01:38:57 UTC 2017
+...checkmark sent
+Wed Mar  1 01:49:43 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400           76.105.39.3:6925     users:(("tcpser",24253,15))
+Wed Mar  1 16:07:38 UTC 2017
+...checkmark sent
+Wed Mar  1 16:13:25 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400         142.104.60.49:43903    users:(("tcpser",24253,15))
+Wed Mar  1 17:58:30 UTC 2017
+...checkmark sent
+Wed Mar  1 17:59:59 UTC 2017
+...waiting for new connection
+One noip2 process is already active,
+and the multiple instance flag (-M) is not set.
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400         142.104.60.49:44421    users:(("tcpser",25335,15))
+Wed Mar  1 18:25:25 UTC 2017
+...checkmark sent
+Wed Mar  1 18:26:02 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400         142.104.60.49:39668    users:(("tcpser",25335,15))
+Wed Mar  1 21:54:43 UTC 2017
+...checkmark sent
+Wed Mar  1 21:55:06 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400         142.104.60.49:39670    users:(("tcpser",25335,15))
+Wed Mar  1 21:55:22 UTC 2017
+Wed Mar  1 21:55:32 UTC 2017
+...waiting for new connection
+ESTAB      0      784         192.168.1.165:6400         142.104.60.49:42207    users:(("tcpser",25335,15))
+Wed Mar  1 23:20:30 UTC 2017
+...checkmark sent
+Wed Mar  1 23:20:51 UTC 2017
+...waiting for new connection
+ESTAB      0      1039        192.168.1.165:6400         50.92.102.199:11706    users:(("tcpser",25335,15))
+Wed Mar  1 23:39:52 UTC 2017
+...checkmark sent
+Wed Mar  1 23:42:16 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400         50.92.102.199:32759    users:(("tcpser",25335,15))
+Wed Mar  1 23:42:20 UTC 2017
+...checkmark sent
+Wed Mar  1 23:43:11 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400         50.92.102.199:26801    users:(("tcpser",25335,15))
+Wed Mar  1 23:43:55 UTC 2017
+...checkmark sent
+...protocol change
+Wed Mar  1 23:59:47 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400         142.104.60.49:43715    users:(("tcpser",25335,15))
+Thu Mar  2 00:04:27 UTC 2017
+...checkmark sent
+Thu Mar  2 00:12:06 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400        67.168.132.127:12637    users:(("tcpser",25335,15))
+Thu Mar  2 00:44:37 UTC 2017
+...checkmark sent
+...protocol change
+Thu Mar  2 00:50:27 UTC 2017
+...waiting for new connection
+ESTAB      0      455         192.168.1.165:6400        67.168.132.127:1727     users:(("tcpser",25335,15))
+Thu Mar  2 00:50:32 UTC 2017
+...checkmark sent
+...protocol change
+Thu Mar  2 01:00:35 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400         142.104.60.49:46676    users:(("tcpser",25335,15))
+Thu Mar  2 01:06:56 UTC 2017
+...checkmark sent
+Thu Mar  2 01:14:06 UTC 2017
+...waiting for new connection
+ESTAB      0      423         192.168.1.165:6400           67.168.6.34:49675    users:(("tcpser",25335,15))
+Thu Mar  2 03:43:03 UTC 2017
+...checkmark sent
+Thu Mar  2 03:43:40 UTC 2017
+...waiting for new connection
+ESTAB      0      4           192.168.1.165:6400           67.168.6.34:49676    users:(("tcpser",25335,15))
+Thu Mar  2 03:44:00 UTC 2017
+Thu Mar  2 03:44:13 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400           67.168.6.34:49694    users:(("tcpser",25335,15))
+Thu Mar  2 03:46:48 UTC 2017
+...checkmark sent
+Thu Mar  2 03:51:48 UTC 2017
+...waiting for new connection
+ESTAB      0      432         192.168.1.165:6400         75.101.40.104:52358    users:(("tcpser",25335,15))
+Thu Mar  2 05:05:16 UTC 2017
+...checkmark sent
+Thu Mar  2 05:09:48 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400          50.79.45.218:34319    users:(("tcpser",25335,15))
+Thu Mar  2 05:59:47 UTC 2017
+...checkmark sent
+Thu Mar  2 06:02:04 UTC 2017
+...waiting for new connection
+ESTAB      0      402         192.168.1.165:6400         172.9.129.203:1539     users:(("tcpser",25335,15))
+Thu Mar  2 11:54:18 UTC 2017
+...checkmark sent
+...protocol change
+Thu Mar  2 12:10:36 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400        24.211.244.167:49793    users:(("tcpser",25335,15))
+Thu Mar  2 14:36:04 UTC 2017
+...checkmark sent
+Thu Mar  2 14:44:15 UTC 2017
+...waiting for new connection
+One noip2 process is already active,
+and the multiple instance flag (-M) is not set.
+...waiting for new connection
+ESTAB      0      687         192.168.1.165:6400         142.104.60.49:38940    users:(("tcpser",2956,15))
+Thu Mar  2 17:49:07 UTC 2017
+...checkmark sent
+...protocol change
+Thu Mar  2 17:58:40 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400        24.211.244.167:50301    users:(("tcpser",2956,15))
+Thu Mar  2 18:32:31 UTC 2017
+...checkmark sent
+Thu Mar  2 18:52:49 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400         142.104.60.49:40775    users:(("tcpser",2956,15))
+Thu Mar  2 19:10:11 UTC 2017
+...checkmark sent
+Thu Mar  2 19:18:57 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400         142.104.60.49:41507    users:(("tcpser",2956,15))
+Thu Mar  2 19:30:40 UTC 2017
+...checkmark sent
+Thu Mar  2 19:31:12 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400         142.104.60.49:41696    users:(("tcpser",2956,15))
+Thu Mar  2 19:48:24 UTC 2017
+...checkmark sent
+Thu Mar  2 19:48:53 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400         142.104.60.49:43003    users:(("tcpser",2956,15))
+Thu Mar  2 21:35:10 UTC 2017
+...checkmark sent
+...protocol change
+Thu Mar  2 21:42:13 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400          69.159.9.156:3423     users:(("tcpser",2956,15))
+Thu Mar  2 22:43:13 UTC 2017
+...checkmark sent
+...protocol change
+...drive 8 switch
+Thu Mar  2 22:48:39 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400         142.104.60.49:46673    users:(("tcpser",2956,15))
+Thu Mar  2 22:50:36 UTC 2017
+...checkmark sent
+...protocol change
+...drive 8 switch
+Thu Mar  2 22:53:37 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400          69.159.9.156:15496    users:(("tcpser",2956,15))
+Thu Mar  2 22:53:43 UTC 2017
+...checkmark sent
+...protocol change
+Thu Mar  2 23:16:12 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400         142.104.60.49:43679    users:(("tcpser",2956,15))
+Thu Mar  2 23:54:18 UTC 2017
+...checkmark sent
+Fri Mar  3 00:00:18 UTC 2017
+...waiting for new connection
+ESTAB      0      309         192.168.1.165:6400         75.101.40.104:40359    users:(("tcpser",2956,15))
+Fri Mar  3 00:43:26 UTC 2017
+...checkmark sent
+Fri Mar  3 00:44:13 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400         75.101.40.104:35813    users:(("tcpser",2956,15))
+Fri Mar  3 00:44:49 UTC 2017
+...checkmark sent
+Fri Mar  3 01:07:29 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400         142.104.60.49:48737    users:(("tcpser",2956,15))
+Fri Mar  3 01:09:00 UTC 2017
+...checkmark sent
+Fri Mar  3 01:12:37 UTC 2017
+...waiting for new connection
+ESTAB      0      625         192.168.1.165:6400        67.168.132.127:19920    users:(("tcpser",2956,15))
+Fri Mar  3 02:15:09 UTC 2017
+...checkmark sent
+Fri Mar  3 02:16:13 UTC 2017
+...waiting for new connection
+ESTAB      0      564         192.168.1.165:6400        67.168.132.127:14275    users:(("tcpser",2956,15))
+Fri Mar  3 02:17:46 UTC 2017
+Fri Mar  3 02:18:15 UTC 2017
+...waiting for new connection
+ESTAB      0      423         192.168.1.165:6400        86.189.187.119:10357    users:(("tcpser",2956,15))
+Fri Mar  3 08:00:32 UTC 2017
+...checkmark sent
+Fri Mar  3 08:01:59 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400       205.250.173.191:23595    users:(("tcpser",2956,15))
+Fri Mar  3 08:03:11 UTC 2017
+...checkmark sent
+Fri Mar  3 08:07:51 UTC 2017
+...waiting for new connection
+One noip2 process is already active,
+and the multiple instance flag (-M) is not set.
+...waiting for new connection
+ESTAB      0      423         192.168.1.165:6400           76.105.39.3:7284     users:(("tcpser",17819,15))
+Fri Mar  3 16:00:26 UTC 2017
+...checkmark sent
+Fri Mar  3 16:08:05 UTC 2017
+...waiting for new connection
+ESTAB      0      625         192.168.1.165:6400        67.168.132.127:22678    users:(("tcpser",17819,15))
+Fri Mar  3 16:29:33 UTC 2017
+...checkmark sent
+Fri Mar  3 16:30:49 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400        67.168.132.127:12723    users:(("tcpser",17819,15))
+Fri Mar  3 16:32:09 UTC 2017
+...checkmark sent
+Fri Mar  3 16:37:01 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400         50.92.102.199:1255     users:(("tcpser",17819,15))
+Fri Mar  3 19:49:50 UTC 2017
+...checkmark sent
+Fri Mar  3 19:59:01 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400         75.101.40.104:33273    users:(("tcpser",17819,15))
+Sat Mar  4 00:31:53 UTC 2017
+...checkmark sent
+Sat Mar  4 00:33:09 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400           192.168.1.2:60378    users:(("tcpser",17819,15))
+Sat Mar  4 01:53:08 UTC 2017
+...checkmark sent
+Sat Mar  4 01:54:26 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400           192.168.1.2:60586    users:(("tcpser",17819,15))
+Sat Mar  4 02:02:12 UTC 2017
+...checkmark sent
+Sat Mar  4 02:03:29 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400           192.168.1.2:33872    users:(("tcpser",17819,15))
+Sat Mar  4 03:02:49 UTC 2017
+...checkmark sent
+Sat Mar  4 03:04:05 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400           192.168.1.2:34058    users:(("tcpser",17819,15))
+Sat Mar  4 03:07:51 UTC 2017
+...checkmark sent
+Sat Mar  4 03:08:44 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400           192.168.1.1:47822    users:(("tcpser",17819,15))
+Sat Mar  4 03:24:10 UTC 2017
+...checkmark sent
+Sat Mar  4 03:24:42 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400           192.168.1.1:47834    users:(("tcpser",17819,15))
+Sat Mar  4 03:29:33 UTC 2017
+...checkmark sent
+Sat Mar  4 03:32:39 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400           192.168.1.1:47838    users:(("tcpser",17819,15))
+Sat Mar  4 03:36:39 UTC 2017
+...checkmark sent
+Sat Mar  4 03:37:15 UTC 2017
+...waiting for new connection
+ESTAB      0      438         192.168.1.165:6400        67.168.132.127:6098     users:(("tcpser",17819,15))
+Sat Mar  4 04:24:18 UTC 2017
+...checkmark sent
+Sat Mar  4 04:26:02 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400        67.168.132.127:28265    users:(("tcpser",17819,15))
+Sat Mar  4 04:40:39 UTC 2017
+...checkmark sent
+...protocol change
+Sat Mar  4 04:48:25 UTC 2017
+...waiting for new connection
+ESTAB      0      784         192.168.1.165:6400        24.104.227.127:15636    users:(("tcpser",17819,15))
+Sat Mar  4 05:27:32 UTC 2017
+...checkmark sent
+Sat Mar  4 05:32:58 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400           192.168.1.2:60566    users:(("tcpser",17819,15))
+Sat Mar  4 06:26:38 UTC 2017
+...checkmark sent
+Sat Mar  4 06:29:28 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400          97.91.206.27:12403    users:(("tcpser",17819,15))
+Sat Mar  4 08:27:25 UTC 2017
+...checkmark sent
+...protocol change
+Sat Mar  4 08:48:12 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400           192.168.1.1:30715    users:(("tcpser",17819,15))
+Sat Mar  4 08:54:28 UTC 2017
+...checkmark sent
+Sat Mar  4 09:02:52 UTC 2017
+...waiting for new connection
+One noip2 process is already active,
+and the multiple instance flag (-M) is not set.
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400           192.168.1.1:60676    users:(("tcpser",28084,15))
+Sat Mar  4 09:41:25 UTC 2017
+...checkmark sent
+Sat Mar  4 09:41:52 UTC 2017
+...waiting for new connection
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400           192.168.1.1:51924    users:(("tcpser",2288,15))
+Sat Mar  4 20:00:44 UTC 2017
+...checkmark sent
+Sat Mar  4 20:01:43 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400           192.168.1.1:53308    users:(("tcpser",2288,15))
+Sat Mar  4 22:54:34 UTC 2017
+...checkmark sent
+Sat Mar  4 22:55:50 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400           192.168.1.1:12240    users:(("tcpser",2288,15))
+Sun Mar  5 00:38:28 UTC 2017
+...checkmark sent
+Sun Mar  5 00:38:57 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400          67.60.49.104:50415    users:(("tcpser",2288,15))
+Sun Mar  5 00:43:48 UTC 2017
+...checkmark sent
+Sun Mar  5 00:53:46 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400           192.168.1.1:26581    users:(("tcpser",2288,15))
+Sun Mar  5 01:07:00 UTC 2017
+...checkmark sent
+Sun Mar  5 01:07:48 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400           192.168.1.1:45016    users:(("tcpser",2288,15))
+Sun Mar  5 01:08:06 UTC 2017
+...checkmark sent
+Sun Mar  5 01:17:54 UTC 2017
+...waiting for new connection
+ESTAB      0      564         192.168.1.165:6400        24.104.227.127:24370    users:(("tcpser",2288,15))
+Sun Mar  5 01:55:09 UTC 2017
+...checkmark sent
+...protocol change
+Sun Mar  5 02:19:45 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400         50.92.102.199:19182    users:(("tcpser",2288,15))
+Sun Mar  5 03:49:04 UTC 2017
+...checkmark sent
+...protocol change
+Sun Mar  5 03:58:40 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400           192.168.1.1:6139     users:(("tcpser",2288,15))
+Sun Mar  5 08:11:28 UTC 2017
+...checkmark sent
+Sun Mar  5 08:17:48 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400           192.168.1.1:36825    users:(("tcpser",2288,15))
+Sun Mar  5 08:18:06 UTC 2017
+...checkmark sent
+Sun Mar  5 08:22:12 UTC 2017
+...waiting for new connection
+One noip2 process is already active,
+and the multiple instance flag (-M) is not set.
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400           192.168.1.1:14302    users:(("tcpser",24288,15))
+Sun Mar  5 09:02:11 UTC 2017
+...checkmark sent
+Sun Mar  5 09:08:36 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400           192.168.1.1:20475    users:(("tcpser",24288,15))
+Sun Mar  5 09:53:51 UTC 2017
+...checkmark sent
+Sun Mar  5 09:54:21 UTC 2017
+...waiting for new connection
+ESTAB      0      0           192.168.1.165:6400           192.168.1.1:57341    users:(("tcpser",24288,15))
+Sun Mar  5 10:04:47 UTC 2017
+...checkmark sent
+Sun Mar  5 10:05:15 UTC 2017
 ...waiting for new connection

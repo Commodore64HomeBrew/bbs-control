@@ -16,7 +16,7 @@ nohup tcpser -d $DEVICE -s 2400 -tsS -l 7 -i "s0=1&s2=43&e0q0v0&c0x1&k0&w" -a se
 
 while [ "$X" -gt 0 ]; do
 
-	FILENUM=$(shuf -i 1-6 -n 1)
+	FILENUM=$(shuf -i 1-7 -n 1)
 
 	cat seqs/connect-msg.seq > seqs/bbs-welcome.seq
 	cat seqs/$FILENUM-logo.seq >> seqs/bbs-welcome.seq
