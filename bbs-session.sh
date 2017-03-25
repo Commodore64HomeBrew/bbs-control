@@ -20,7 +20,7 @@ while [ "$X" -gt 0 ]; do
 
 	cat seqs/connect-msg.seq > seqs/bbs-welcome.seq
 	cat seqs/$FILENUM-logo.seq >> seqs/bbs-welcome.seq
-	#cat seqs/connect-status.seq >> seqs/bbs-welcome.seq
+	cat seqs/connect-status.seq >> seqs/bbs-welcome.seq
 	
 	echo "...waiting for new connection"
 
