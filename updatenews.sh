@@ -4,9 +4,9 @@ bash cbcnews.sh
 bash nasanews.sh
 bash commodorenews.sh
 
-cat seqs/spacepause.seq l1 > "(bbs-l1)"
-cat seqs/spacepause.seq l2 > "(bbs-l2)"
-cat seqs/spacepause.seq l3 > "(bbs-l3)"
+cat seqs/pauseabort.seq l1 > "(info-1)"
+cat seqs/pauseabort.seq l2 > "(info-2)"
+cat seqs/pauseabort.seq l3 > "(info-3)"
 
 #bash 1571side.sh 1
 bash resetusb.sh
@@ -14,15 +14,15 @@ sleep 1
 cbmctrl reset
 sleep 2
 
-bash deletefile.sh "(bbs-l1)"
-bash deletefile.sh "(bbs-l2)"
-bash deletefile.sh "(bbs-l3)"
+bash deletefile.sh "(info-1)"
+bash deletefile.sh "(info-2)"
+bash deletefile.sh "(info-3)"
 
 echo "Old files deleted"
 
-bash writefile.sh "(bbs-l1)"
-bash writefile.sh "(bbs-l2)"
-bash writefile.sh "(bbs-l3)"
+bash writefile.sh "(info-1)"
+bash writefile.sh "(info-2)"
+bash writefile.sh "(info-3)"
 
 echo "New files written"
 
