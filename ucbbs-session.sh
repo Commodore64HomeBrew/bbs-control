@@ -20,6 +20,8 @@ while [ "$X" -gt 0 ]; do
 	cat seqs/connect-status.seq >> seqs/bbs-welcome.seq
 	
 	echo "...waiting for new connection"
+	
+	sudo nohup tcpdump -i eth0 'port 2300' > tcpdump.log &
 
 	STATUS=$(ss -tp | grep 'tcpser' | awk '{print $1}')
 
@@ -40,11 +42,19 @@ while [ "$X" -gt 0 ]; do
 	SECONDS=0
 	HANGUP=0
 	QUIET=0
+	sleep 1
+	sudo pkill tcpdump
+
+        ASCII=$(grep '2300' tcpdump.log | tail -5)
+	if [ "$ASCII" != "" ]
+	then
+		echo "...ASCII mode"
+	fi
 
 	START=$SECONDS
 	while [ "$STATUS" = "$ESTAB" ] && [ $HANGUP -eq 0 ] ; do
 
-		if [ $CHECKSENT -eq 0 ]
+		if [ $CHECKSENT -eq 0 ] && [ "$ASCII" = "" ]
 		then
 			CGMODE=$(tail -10 $FILENAME | grep '> ')
 
@@ -61,5 +71,4 @@ while [ "$X" -gt 0 ]; do
 	done
 
 	echo "$(date)"
-
 done
