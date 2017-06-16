@@ -1,5 +1,6 @@
 #!/bin/bash
-DEVICE=/dev/ttyAMA0
+#DEVICE=/dev/ttyAMA0
+DEVICE=/dev/ttyUSB0
 PORT=6400
 FILENAME="session2.log"
 ESTAB="ESTAB"

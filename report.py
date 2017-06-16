@@ -55,47 +55,48 @@ newCalls = 0
 #    file  = open(fname3, 'r',encoding='utf-8', errors='ignore').read()
 #    newCalls += file.count("CAME AT")
 
-#for date in range(date1, date2):
-#    fname3 = path + "sys-log-" + str(date) + ".seq"
-#    file  = open(fname3, 'r',encoding='utf-8', errors='ignore').read()
-#    newCalls += file.count("OGON")
+for date in range(date1, date2):
+    fname3 = path + "bbs-log-" + str(date) + ".seq"
+    file  = open(fname3, 'r',encoding='utf-8', errors='ignore').read()
+    newCalls += file.count("OGON")
 
 f = open('(val-user)', 'wb')
 
-title="7 DAY REPORT (uPDATED 04:00 pst):\u000d\u000d"
+title="7 DAY REPORT (UPDATED 04:00 pst):\u000d\u000d"
 
-stat1="tHE lOUNGE         -> nEW: {}\u000d\u000d".format(diff[0])
-stat2="sCIENCE AND tECH   -> nEW: {}\u000d\u000d".format(diff[1])
-stat3="lA mUSIQUE         -> nEW: {}\u000d\u000d".format(diff[2])
-stat4="hARDWARE cORNER    -> nEW: {}\u000d\u000d".format(diff[3])
-stat5="sOFTWARE AND gAMES -> nEW: {}\u000d\u000d".format(diff[4])
-stat6="vIC64 nEWS/eVENTS  -> nEW: {}\u000d\u000d".format(diff[5])
-stat7="tHE gREAT oUTDOORS -> nEW: {}\u000d\u000d".format(diff[6])
-stat8="pACIFIC c= eXPO'17 -> nEW: {}\u000d\u000d".format(diff[7])
+calls="cALLS -> tOTAL: ??? nEW: {}\u000d".format(newCalls)
+posts="pOSTS -> tOTAL: {} nEW: {}\u000d\u000d".format(totalPosts, newPosts)
+ratio="pOST RATIO (pOSTS/cALLS): {0:.2f}\u000d\u000d".format( newPosts/newCalls)
 
 
-#f.write("uSERS -> tOTAL: {}  nEW: {}\u000d".format(totalUsers, newUsers))
-#f.write("cALLS -> tOTAL: ??? nEW: {}\u000d".format(newCalls))
-#f.write("pOSTS -> tOTAL: {} nEW: {}\u000d\u000d".format(totalPosts, newPosts))
-#f.write("pOST RATIO (POSTS/CALLS): {0:.2f}\u000d\u000d".format( newPosts/newCalls ))
-
-
+stat1="tHE lOUNGE         -> nEW: {}\u000d".format(diff[0])
+stat2="sCIENCE AND tECH   -> nEW: {}\u000d".format(diff[1])
+stat3="lA mUSIQUE         -> nEW: {}\u000d".format(diff[2])
+stat4="hARDWARE cORNER    -> nEW: {}\u000d".format(diff[3])
+stat5="sOFTWARE AND gAMES -> nEW: {}\u000d".format(diff[4])
+stat6="vIC64 nEWS/eVENTS  -> nEW: {}\u000d".format(diff[5])
+stat7="tHE gREAT oUTDOORS -> nEW: {}\u000d".format(diff[6])
+stat8="pACIFIC c= eXPO'17 -> nEW: {}\u000d".format(diff[7])
 
 
 f.write(title.encode('ascii'))
-f.write(sub1)
+f.write(calls.encode('ascii'))
+f.write(posts.encode('ascii'))
+f.write(ratio.encode('ascii'))
+
+#f.write(sub1)
 f.write(stat1.encode('ascii'))
-f.write(sub2)
+#f.write(sub2)
 f.write(stat2.encode('ascii'))
-f.write(sub3)
+#f.write(sub3)
 f.write(stat3.encode('ascii'))
-f.write(sub4)
+#f.write(sub4)
 f.write(stat4.encode('ascii'))
-f.write(sub5)
+#f.write(sub5)
 f.write(stat5.encode('ascii'))
-f.write(sub6)
+#f.write(sub6)
 f.write(stat6.encode('ascii'))
-f.write(sub7)
+#f.write(sub7)
 f.write(stat7.encode('ascii'))
-f.write(sub8)
+#f.write(sub8)
 f.write(stat8.encode('ascii'))

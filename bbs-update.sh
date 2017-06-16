@@ -36,7 +36,7 @@ echo "...backupsubs complete" >> $FILEOUT
 
 pkill 
 
-nohup bash bbs-session.sh >> bbs-session.log &
+nohup bash ucbbs-session.sh >> bbs-session.log &
 
 bash resetusb.sh
 
