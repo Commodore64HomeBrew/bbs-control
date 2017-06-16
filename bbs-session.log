@@ -8860,3 +8860,8 @@ Fri Jun 16 17:56:38 UTC 2017
 ...waiting for new connection
 tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
 listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+Can't locate configuration file /usr/local/etc/no-ip2.conf. (Try -c). Ending!
+
+...waiting for new connection
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes

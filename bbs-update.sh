@@ -34,7 +34,7 @@ echo "...update complete" >> $FILEOUT
 bash backupsubs.sh
 echo "...backupsubs complete" >> $FILEOUT
 
-pkill 
+pkill tcpser 
 
 nohup bash ucbbs-session.sh >> bbs-session.log &
 
