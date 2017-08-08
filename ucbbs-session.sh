@@ -1,7 +1,7 @@
 #!/bin/bash
 DEVICE=/dev/ttyAMA0
 PORT=6400
-FILENAME="session2.log"
+FILENAME="/tmp/session.log"
 ESTAB="ESTAB"
 TIMEOUT=60
 X=1
@@ -9,7 +9,7 @@ X=1
 sudo /usr/local/bin/noip2
 
 pkill tcpser
-nohup tcpser -d $DEVICE -s 2400 -tsS -l 7 -i "s0=1&s7=30&e0m0v0c0x1&k0&w" -a seqs/bbs-welcome.seq -T seqs/bbs-timeout.seq -B seqs/bbs-busy.seq -p $PORT > $FILENAME &
+nohup tcpser -d $DEVICE -s 2400 -I -tsS -l 7 -i "s0=1&s7=30&e0m0v0c0x1&k0&w" -a seqs/bbs-welcome.seq -T seqs/bbs-timeout.seq -B seqs/bbs-busy.seq -p $PORT > $FILENAME &
 
 while [ "$X" -gt 0 ]; do
 
@@ -21,7 +21,7 @@ while [ "$X" -gt 0 ]; do
 	
 	echo "...waiting for new connection"
 	
-	sudo nohup tcpdump -i eth0 'port 2300' > tcpdump.log &
+	#sudo nohup tcpdump -i eth0 'port 2300' > tcpdump.log &
 
 	STATUS=$(ss -tp | grep 'tcpser' | awk '{print $1}')
 
@@ -42,26 +42,37 @@ while [ "$X" -gt 0 ]; do
 	SECONDS=0
 	HANGUP=0
 	QUIET=0
-	sleep 1
-	sudo pkill tcpdump
+	#sleep 6
+	#sudo pkill tcpdump
 
-        ASCII=$(grep '2300' tcpdump.log | tail -5)
+        #ASCII=$(grep '2300' tcpdump.log | tail -5)
+	ASCII=$(ss -tp | grep '162.253.176.32')
 	if [ "$ASCII" != "" ]
 	then
 		echo "...ASCII mode"
+	else
+		sleep 6
 	fi
 
 	START=$SECONDS
 	while [ "$STATUS" = "$ESTAB" ] && [ $HANGUP -eq 0 ] ; do
 
-		if [ $CHECKSENT -eq 0 ] && [ "$ASCII" = "" ]
+		if [ $CHECKSENT -eq 0 ]
 		then
-			CGMODE=$(tail -10 $FILENAME | grep '> ')
+			CGMODE=$(tail -50 $FILENAME | grep '> ')
 
 			if [ -n "$CGMODE" ]
 			then
-				echo "...checkmark sent"
-				perl -C -e 'print chr 0xe1ba' > $DEVICE
+				if [ "$ASCII" = "" ]
+				then
+					echo "...checkmark sent"
+					perl -C -e 'print chr 0xe1ba' > $DEVICE
+				else
+					echo "...CR sent"
+					perl -C -e 'print "\n"' > $DEVICE
+					sleep 1
+					perl -C -e 'print "y\n"' > $DEVICE
+				fi
 				CHECKSENT=1
 			fi	
 		fi

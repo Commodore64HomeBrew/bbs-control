@@ -1,5 +1,19 @@
 import sys
 import operator
+import time
+
+
+up=b'\x91'
+dn=b'\x11'
+lt=b'\x9d'
+rt=b'\x1d'
+cr=b'\x0d'
+pt=b'\xbb'
+
+xaxis=34
+yaxis=9
+
+dayColour=b"\x1f\x9a\x9f\x99\x9e\x81\x1c"
 
 date2 = int(sys.argv[1])
 date1 = date2 - 6
@@ -47,6 +61,7 @@ diff = list(map(operator.sub, totals2, totals1))
 totalPosts = sum(totals2)
 newPosts = totalPosts - sum(totals1) 
 
+
 totalCalls = 1000
 newCalls = 0
 
@@ -62,41 +77,132 @@ for date in range(date1, date2):
 
 f = open('(val-user)', 'wb')
 
-title="7 DAY REPORT (UPDATED 04:00 pst):\u000d\u000d"
+title=b"\x05 7 DAY REPORT (UPDATED 06:00 pst):\x0d\x0d"
 
-calls="cALLS -> tOTAL: ??? nEW: {}\u000d".format(newCalls)
-posts="pOSTS -> tOTAL: {} nEW: {}\u000d\u000d".format(totalPosts, newPosts)
-ratio="pOST RATIO (pOSTS/cALLS): {0:.2f}\u000d\u000d".format( newPosts/newCalls)
+total=b"\x97  ALL POSTS: \x05 %d\x0d\x0d" % totalPosts
+
+posts=b"\x9b  NEW POSTS: \x05 %d\x0d" % newPosts
+calls=b"\x98  NEW CALLS: \x05 %d\x0d" % newCalls
+ratio=b"\x97 POST RATIO: \x05 %.2f\x0d\x0d" % (newPosts/newCalls)
+
+stat1=b"\x1f tHE lOUNGE \x1e[\x05\x12"+ (b"\xa5" * diff[0]) +b"\x0d"
+stat2=b"\x9a sCI & tECH \x1e[\x9b\x12"+ (b"\xa5" * diff[1]) +b"\x0d"
+stat3=b"\x9f lA mUSIQUE \x1e[\x05\x12"+ (b"\xa5" * diff[2]) +b"\x0d"
+stat4=b"\x99   hARDWARE \x1e[\x9b\x12"+ (b"\xa5" * diff[3]) +b"\x0d"
+stat5=b"\x9e   sOFTWARE \x1e[\x05\x12"+ (b"\xa5" * diff[4]) +b"\x0d"
+stat6=b"\x81 vIC64 nEWS \x1e[\x9b\x12"+ (b"\xa5" * diff[5]) +b"\x0d"
+stat7=b"\x1c   oUTDOORS \x1e[\x05\x12"+ (b"\xa5" * diff[6]) +b"\x0d"
+stat8=b"\x95     iNTROS \x1e[\x9b\x12"+ (b"\xa5" * diff[7]) +b"\x0d"
+
+pause=b"\x90"
+pause+= (lt+rt)*40
+
+f.write(title)
+
+f.write(total)
+
+f.write(posts)
+f.write(calls)
+f.write(ratio)
+
+f.write(stat1)
+f.write(stat2)
+f.write(stat3)
+f.write(stat4)
+f.write(stat5)
+f.write(stat6)
+f.write(stat7)
+f.write(stat8)
+#f.write(pause)
+
+date1 = date2 - 30
+dailyCalls = []
+lastPoint=0
+callsLine=b'\x1c'
+maxCalls=0
+
+for date in range(date1, date2):
+    fname3 = path + "bbs-log-" + str(date) + ".seq"
+    file  = open(fname3, 'r',encoding='utf-8', errors='ignore').read()
+    calls=file.count("OGON")
+    dailyCalls.append(calls)
+    pointDiff = calls-lastPoint
+
+    if pointDiff>0:
+        callsPoint = up*abs(pointDiff) + pt
+    elif pointDiff<0:
+        callsPoint = dn*abs(pointDiff) + pt
+    else:
+        callsPoint = pt
+
+    callsLine += callsPoint
+    lastPoint=calls
+
+    if(calls > maxCalls):
+        maxCalls=calls
+
+postsLine=b"\x12"
+xlable=b"  "
+maxPosts=0
+lastPoint=0
+date1=date2-xaxis
+dayCount=0
+
+for date in range(date1, date2):
+
+    fname1 = path + "no-" + str(date-1) + ".seq"
+    fname2 = path + "no-" + str(date) + ".seq"
+
+    day=time.strftime("%A", time.gmtime(date*86400))[:1].lower()
+
+    with open(fname1) as f1:
+        totals1 = f1.read().split("\n")
+
+    with open(fname2) as f2:
+        totals2 = f2.read().split("\n")
+
+    totals1 = [int(i) for i in totals1[:-1]]
+    totals2 = [int(i) for i in totals2[:-1]]
+
+    diff = list(map(operator.sub, totals2, totals1))
+
+    totalPosts = sum(totals2)
+    newPosts = totalPosts - sum(totals1) 
+
+    postsPoint= bytes({dayColour[dayCount]}) + b"\x91\x9d\xb4"*newPosts + b"\x90" + dn*newPosts + rt
+
+    xlable += bytes({dayColour[dayCount]}) + day.encode()
+
+    dayCount=dayCount+1
+    if(dayCount>6):
+        dayCount=0
+
+    postsLine += postsPoint
+    lastPoint=newPosts
+
+    if(newPosts > maxPosts):
+        maxPosts=newPosts
+
+endPos= dn*2 + cr
+
+title=b"\x0d\x9b            pOSTS PER DAY\x0d"
+
+axis=b"\x0d\x05"
+for x in range(0, yaxis):
+    index=yaxis-x
+    axis += b"%d\xab\x0d" % index
+
+ 
+axis += b" \xad" + b"\xb1"*xaxis + cr
+#+ b"\x9d\x91\x7d"*10
 
 
-stat1="tHE lOUNGE         -> nEW: {}\u000d".format(diff[0])
-stat2="sCIENCE AND tECH   -> nEW: {}\u000d".format(diff[1])
-stat3="lA mUSIQUE         -> nEW: {}\u000d".format(diff[2])
-stat4="hARDWARE cORNER    -> nEW: {}\u000d".format(diff[3])
-stat5="sOFTWARE AND gAMES -> nEW: {}\u000d".format(diff[4])
-stat6="vIC64 nEWS/eVENTS  -> nEW: {}\u000d".format(diff[5])
-stat7="tHE gREAT oUTDOORS -> nEW: {}\u000d".format(diff[6])
-stat8="pACIFIC c= eXPO'17 -> nEW: {}\u000d".format(diff[7])
+startPos=cr + up*2 + rt*3
 
-
-f.write(title.encode('ascii'))
-f.write(calls.encode('ascii'))
-f.write(posts.encode('ascii'))
-f.write(ratio.encode('ascii'))
-
-#f.write(sub1)
-f.write(stat1.encode('ascii'))
-#f.write(sub2)
-f.write(stat2.encode('ascii'))
-#f.write(sub3)
-f.write(stat3.encode('ascii'))
-#f.write(sub4)
-f.write(stat4.encode('ascii'))
-#f.write(sub5)
-f.write(stat5.encode('ascii'))
-#f.write(sub6)
-f.write(stat6.encode('ascii'))
-#f.write(sub7)
-f.write(stat7.encode('ascii'))
-#f.write(sub8)
-f.write(stat8.encode('ascii'))
+f.write(title)
+f.write(axis)
+f.write(xlable)
+f.write(startPos)
+#f.write(callsLine)
+f.write(postsLine)
+f.write(pause)
