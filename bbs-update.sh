@@ -36,7 +36,10 @@ echo "...backupsubs complete" >> $FILEOUT
 
 pkill tcpser 
 
-nohup bash ucbbs-session.sh >> bbs-session.log &
+nohup bash ucbbs-session.sh >> /tmp/bbs-session.log &
 
 bash resetusb.sh
 
+rsync -rtv /tmp/bbs-control/ /home/pi/Git/bbs-control/
+
+sudo rsync -avz --progress --exclude '/media' --exclude '/data' --exclude '/mnt' --exclude '/clone' / /clone/.
