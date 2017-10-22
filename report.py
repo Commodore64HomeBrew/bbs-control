@@ -11,7 +11,7 @@ cr=b'\x0d'
 pt=b'\xbb'
 
 xaxis=34
-yaxis=9
+yaxis=8
 
 dayColour=b"\x1f\x9a\x9f\x99\x9e\x81\x1c"
 
@@ -79,11 +79,14 @@ f = open('(val-user)', 'wb')
 
 title=b"\x05 7 DAY REPORT (UPDATED 06:00 pst):\x0d\x0d"
 
-total=b"\x97  ALL POSTS: \x05 %d\x0d\x0d" % totalPosts
+#total=b"\x97  ALL POSTS: \x05 %d\x0d\x0d" % totalPosts
 
-posts=b"\x9b  NEW POSTS: \x05 %d\x0d" % newPosts
-calls=b"\x98  NEW CALLS: \x05 %d\x0d" % newCalls
-ratio=b"\x97 POST RATIO: \x05 %.2f\x0d\x0d" % (newPosts/newCalls)
+#posts=b"\x9b  NEW POSTS: \x05 %d\x0d" % newPosts
+#calls=b"\x98  NEW CALLS: \x05 %d\x0d" % newCalls
+#ratio=b"\x97 POST RATIO: \x05 %.2f\x0d\x0d" % (newPosts/newCalls)
+
+postsline=b"\x9b NEW POSTS: \x05 %d\x97  ALL POSTS: \x05 %d\x0d" % (newPosts, totalPosts)
+callsline=b"\x9b NEW CALLS: \x05 %d\x97 POST RATIO: \x05 %.2f\x0d\x0d" % (newCalls, (newPosts/newCalls))
 
 stat1=b"\x1f tHE lOUNGE \x1e[\x05\x12"+ (b"\xa5" * diff[0]) +b"\x0d"
 stat2=b"\x9a sCI & tECH \x1e[\x9b\x12"+ (b"\xa5" * diff[1]) +b"\x0d"
@@ -99,11 +102,13 @@ pause+= (lt+rt)*40
 
 f.write(title)
 
-f.write(total)
+#f.write(total)
+#f.write(posts)
+#f.write(calls)
+#f.write(ratio)
 
-f.write(posts)
-f.write(calls)
-f.write(ratio)
+f.write(postsline)
+f.write(callsline)
 
 f.write(stat1)
 f.write(stat2)
