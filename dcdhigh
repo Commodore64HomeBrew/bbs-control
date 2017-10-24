@@ -1,0 +1,21 @@
+#!/usr/bin/python
+
+import RPi.GPIO as GPIO
+import sys, os, re, time, fcntl
+
+fd = sys.stdin.fileno()
+fl = fcntl.fcntl(fd, fcntl.F_GETFL)
+fcntl.fcntl(fd, fcntl.F_SETFL, fl | os.O_NONBLOCK)
+
+GPIO.setmode(GPIO.BOARD)
+dtr = re.compile('.+TIOCM_DTR.+')
+start = time.time()
+
+def reset():
+  pin = 12
+  GPIO.setup(pin, GPIO.OUT)
+  GPIO.output(pin, GPIO.HIGH)
+
+reset()
+GPIO.cleanup()
+print "DCD set high"
