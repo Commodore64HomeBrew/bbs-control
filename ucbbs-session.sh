@@ -8,10 +8,15 @@ X=1
 
 sudo /usr/local/bin/noip2
 
-pkill tcpser
-nohup tcpser -d $DEVICE -s 2400 -I -tsS -l 7 -i "s0=1&s7=30&e0m0v0c0x1&k0&w" -a seqs/bbs-welcome.seq -T seqs/bbs-timeout.seq -B seqs/bbs-busy.seq -p $PORT > $FILENAME &
+#pkill tcpser
+#nohup tcpser -d $DEVICE -s 2400 -I -tsS -l 7 -i "s0=1&s7=30&e0m0v0c0x1&k0&w" -a seqs/bbs-welcome.seq -T seqs/bbs-timeout.seq -B seqs/bbs-busy.seq -p $PORT > $FILENAME &
 
 while [ "$X" -gt 0 ]; do
+
+	pkill tcpser
+	sudo dcdhigh
+	nohup tcpser -d $DEVICE -s 2400 -I -tsS -l 7 -i "s0=1&s7=30&e0m0v0c0x1&k0&w" -a seqs/bbs-welcome.seq -T seqs/bbs-timeout.seq -B seqs/bbs-busy.seq -p $PORT > $FILENAME &
+
 
 	FILENUM=$(shuf -i 1-8 -n 1)
 
@@ -81,5 +86,7 @@ while [ "$X" -gt 0 ]; do
 
 	done
 
+	sudo dcdlow
+	sleep 12
 	echo "$(date)"
 done
