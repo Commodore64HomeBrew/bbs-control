@@ -34,11 +34,16 @@ bash graffiti/wallsplit.sh
 
 mv graffiti/lastfive.seq "(bulletins)"
 
+bash randompic.sh
+
 bash deletefile.sh "(val-user)"
 bash writefile.sh "(val-user)"
 
 bash deletefile.sh "(bulletins)"
 bash writefile.sh "(bulletins)"
+
+bash deletefile.sh "(logoff)"
+bash writefile.sh "(logoff)"
 
 bash resetusb.sh
 cbmctrl reset
